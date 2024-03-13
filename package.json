@@ -1,14 +1,24 @@
 {
-  "name": "dashboard",
+  "type": "module",
+  "name": "mon-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "12": "^1.0.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.2",
+    "fast-csv": "^5.0.1",
+    "papaparse": "^5.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-html-parser": "^2.0.2",
     "react-scripts": "5.0.1",
+    "streamifier": "^0.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

@@ -35,8 +35,13 @@ Les contributions à ce projet sont les bienvenues. Pour contribuer, veuillez su
 Ce projet est sous licence XYZ. Voir le fichier LICENSE pour plus d'informations.
 
 ## 📬 Contact
+```bash
 Sabau Damien
+
 Neves Sousa Leandro
+
 Dilmi Kaïs
+
 Khatim Rayane
+```
 Projet Lien: [[GitHub](https://github.com/Leele09/dashboard)]

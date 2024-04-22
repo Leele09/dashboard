@@ -17,11 +17,11 @@ Ce projet est un tableau de bord 📊 développé avec React et Tailwind CSS, de
 ## 🛠 Installation
 Pour installer et exécuter ce tableau de bord localement, suivez les étapes ci-dessous :
 
-\```bash
+```bash
 git clone https://github.com/Leele09/dashboard.git
 npm install
 npm start
-\```
+```
 
 ## 🤝 Contribution
 Les contributions à ce projet sont les bienvenues. Pour contribuer, veuillez suivre les étapes suivantes :

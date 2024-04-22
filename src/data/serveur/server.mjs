@@ -1,31 +1,37 @@
-import { createServer } from "node:http";
-import * as API from '../API/functions.mjs';
+import express from 'express';
+import cors from 'cors';
+import * as API from './functions.mjs';
+import { csvToJson } from "./functions.mjs";
 
-createServer(async (req, res) => {
-    try {
-        let url = new URL(req.url, `http://${req.headers.host}`);
-        const endpoint = `${req.method}:${url.pathname}`;
-        let results;
-        let params;
-        switch (endpoint){
-            case 'GET:/dataByDate':
-                url = new URL(req.url, `http://${req.headers.host}`);
-                params = url.searchParams;
-                results = await API.getCsv(params.get('trip-start'));
-                break;
-            case 'GET:/dataByPolluant':
-                url = new URL(req.url, `http://${req.headers.host}`);
-                params = url.searchParams;
-                results = await API.getDataByParam(params.get('trip-start'));
-                break;
-            default:
-                res.writeHead(404);
-        }
-        if (results) {
-            res.write(JSON.stringify(results));
-        }
-    } catch (e) {
-        throw e;
-    }
-    res.end();
-}).listen(3001)
+const app = express();
+app.use(cors());
+app.use(express.json()); // Make sure this line comes before your routes
+
+let data = await API.getDataInRangeOfDate(Date.now(), "Daily");
+const jsonOfData = await csvToJson(data);
+
+app.post('/dataSite', async (req, res) => {
+    const siteToKeep = req.body.siteToKeep;
+    const result = API.getDataBySite(siteToKeep, jsonOfData);
+    const results = JSON.stringify(result);
+    res.status(200).json(results);
+});
+
+app.post('/dataPolluant', async (req, res) => {
+    const polluantsToKeep = req.body.polluantsToKeep;
+    const result = API.getDataByPolluant(polluantsToKeep, jsonOfData);
+    const results = JSON.stringify(result);
+    console.log(result);
+    res.status(200).json(results);
+});
+
+app.use((req, res) => {
+    res.status(404).end();
+});
+
+app.use((err, req, res, next) => {
+    console.error(err);
+    res.status(500).end();
+});
+
+app.listen(3001);

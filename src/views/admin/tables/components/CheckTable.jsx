@@ -1,115 +1,124 @@
-import React, { useMemo, useState, useEffect } from "react";
-import CardMenu from "../../../../components/card/CardMenu";
-import Checkbox from "../../../../components/checkbox/index.jsx";
-import Card from "../../../../components/card/index.jsx";
+import React, { useMemo } from "react";
+import CardMenu from "components/card/CardMenu";
+import Card from "components/card";
+import Checkbox from "components/checkbox";
+
 import {
   useGlobalFilter,
   usePagination,
   useSortBy,
   useTable,
 } from "react-table";
-import jsonData from '../../../../data/data.json'; // Vérifiez le chemin d'accès
 
-const CheckTable = () => {
-  const [selectedStation, setSelectedStation] = useState(Object.keys(jsonData)[0]);
-  const [tableData, setTableData] = useState([]);
+const CheckTable = (props) => {
+  const { columnsData, tableData } = props;
 
-  useEffect(() => {
-    const pollutantsData = {};
-    Object.entries(jsonData[selectedStation] || {}).forEach(([siteCode, pollutants]) => {
-      Object.entries(pollutants).forEach(([pollutant, readings]) => {
-        const validReadings = readings.filter(r => r[1] !== null && r[1] !== "").map(r => ({
-          value: parseFloat(r[1]),
-          date: r[0].split(' ')[0] // Ici on ne prend que la date sans l'heure
-        }));
-        if (!pollutantsData[pollutant]) {
-          pollutantsData[pollutant] = { values: [], dates: [] };
-        }
-        validReadings.forEach(reading => {
-          pollutantsData[pollutant].values.push(reading.value);
-          pollutantsData[pollutant].dates.push(reading.date);
-        });
-      });
-    });
+  const columns = useMemo(() => columnsData, [columnsData]);
+  const data = useMemo(() => tableData, [tableData]);
 
-    const averagedData = Object.entries(pollutantsData).map(([pollutant, data]) => {
-      const sum = data.values.reduce((acc, value) => acc + value, 0);
-      const average = (sum / data.values.length).toFixed(2);
-      // Utiliser la date la plus récente disponible pour chaque polluant
-      const mostRecentDate = data.dates.sort((a, b) => new Date(b) - new Date(a))[0];
-      return {
-        NAME: `${selectedStation} - ${pollutant}`,
-        PROGRESS: `${average}%`,
-        DATE: mostRecentDate
-      };
-    });
-
-    setTableData(averagedData);
-  }, [selectedStation]);
-
-  const columns = useMemo(() => [
+  const tableInstance = useTable(
     {
-      Header: 'NOM',
-      accessor: 'NAME',
+      columns,
+      data,
     },
-    {
-      Header: 'MOYENNE',
-      accessor: 'PROGRESS',
-    },
-    {
-      Header: 'DATE',
-      accessor: 'DATE',
-    },
-  ], []);
+    useGlobalFilter,
+    useSortBy,
+    usePagination
+  );
 
   const {
     getTableProps,
     getTableBodyProps,
     headerGroups,
-    rows,
+    page,
     prepareRow,
-  } = useTable(
-    {
-      columns,
-      data: tableData,
-    }
-  );
+    initialState,
+  } = tableInstance;
+  initialState.pageSize = 11;
 
   return (
-    <Card extra={"w-full h-full sm:overflow-auto px-6"}>
-      <header className="relative flex items-center justify-between pt-4">
-        <div className="text-xl font-bold text-navy-700 dark:text-white">Tableau de données des régions</div>
-        <select onChange={e => setSelectedStation(e.target.value)} value={selectedStation}>
-          {Object.keys(jsonData).map(station => (
-            <option key={station} value={station}>{station}</option>
-          ))}
-        </select>
+    <Card extra={"w-full sm:overflow-auto p-4"}>
+      <header className="relative flex items-center justify-between">
+        <div className="text-xl font-bold text-navy-700 dark:text-white">
+          Check Table
+        </div>
+
         <CardMenu />
       </header>
 
-      <div className="mt-8 overflow-x-auto">
-        <table {...getTableProps()} className="w-full">
+      <div className="mt-8 overflow-x-scroll xl:overflow-x-hidden">
+        <table
+          {...getTableProps()}
+          className="w-full"
+          variant="simple"
+          color="gray-500"
+          mb="24px"
+        >
           <thead>
-            {headerGroups.map(headerGroup => (
-              <tr {...headerGroup.getHeaderGroupProps()}>
-                {headerGroup.headers.map(column => (
-                  <th {...column.getHeaderProps()} className="border-b border-gray-200 px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    {column.render("Header")}
+            {headerGroups.map((headerGroup, index) => (
+              <tr {...headerGroup.getHeaderGroupProps()} key={index}>
+                {headerGroup.headers.map((column, index) => (
+                  <th
+                    {...column.getHeaderProps(column.getSortByToggleProps())}
+                    className="border-b border-gray-200 pr-16 pb-[10px] text-start dark:!border-navy-700"
+                    key={index}
+                  >
+                    <div className="text-xs font-bold tracking-wide text-gray-600 lg:text-xs">
+                      {column.render("Header")}
+                    </div>
                   </th>
                 ))}
               </tr>
             ))}
           </thead>
           <tbody {...getTableBodyProps()}>
-            {rows.map(row => {
+            {page.map((row, index) => {
               prepareRow(row);
               return (
-                <tr {...row.getRowProps()}>
-                  {row.cells.map(cell => (
-                    <td {...cell.getCellProps()} className="px-6 py-4 whitespace-nowrap">
-                      {cell.render("Cell")}
-                    </td>
-                  ))}
+                <tr {...row.getRowProps()} key={index}>
+                  {row.cells.map((cell, index) => {
+                    let data = "";
+                    if (cell.column.Header === "NAME") {
+                      data = (
+                        <div className="flex items-center gap-2">
+                          <Checkbox />
+                          <p className="text-sm font-bold text-navy-700 dark:text-white">
+                            {cell.value[0]}
+                          </p>
+                        </div>
+                      );
+                    } else if (cell.column.Header === "PROGRESS") {
+                      data = (
+                        <div className="flex items-center">
+                          <p className="text-sm font-bold text-navy-700 dark:text-white">
+                            {cell.value}%
+                          </p>
+                        </div>
+                      );
+                    } else if (cell.column.Header === "QUANTITY") {
+                      data = (
+                        <p className="text-sm font-bold text-navy-700 dark:text-white">
+                          {" "}
+                          {cell.value}{" "}
+                        </p>
+                      );
+                    } else if (cell.column.Header === "DATE") {
+                      data = (
+                        <p className="text-sm font-bold text-navy-700 dark:text-white">
+                          {cell.value}
+                        </p>
+                      );
+                    }
+                    return (
+                      <td
+                        {...cell.getCellProps()}
+                        key={index}
+                        className="pt-[14px] pb-[16px] sm:text-[14px]"
+                      >
+                        {data}
+                      </td>
+                    );
+                  })}
                 </tr>
               );
             })}

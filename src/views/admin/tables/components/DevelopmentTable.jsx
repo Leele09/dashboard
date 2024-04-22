@@ -1,148 +1,152 @@
-import React, { useMemo, useState, useEffect } from 'react';
-import Card from '../../../../components/card/index.jsx';
-import { useTable } from 'react-table';
-import jsonData from '../../../../data/data.json'; 
-import geoData from '../../../../data/geo.json'; 
+import CardMenu from "components/card/CardMenu";
+import Card from "components/card";
+import { DiApple } from "react-icons/di";
+import { DiAndroid } from "react-icons/di";
+import { DiWindows } from "react-icons/di";
 
-const CheckTable = () => {
-  const [selectedStation, setSelectedStation] = useState('');
-  const [tableData, setTableData] = useState([]);
-  const [stationNames, setStationNames] = useState({});
+import React, { useMemo } from "react";
+import {
+  useGlobalFilter,
+  usePagination,
+  useSortBy,
+  useTable,
+} from "react-table";
+import Progress from "components/progress";
 
-  useEffect(() => {
-    const stationNamesMap = {};
-    geoData.forEach(station => {
-      stationNamesMap[station["Code station"]] = station["Nom station"];
-    });
-    setStationNames(stationNamesMap);
-  }, []);
+const DevelopmentTable = (props) => {
+  const { columnsData, tableData } = props;
 
-  useEffect(() => {
-    const stationData = {};
-    const pollutantSums = {};
+  const columns = useMemo(() => columnsData, [columnsData]);
+  const data = useMemo(() => tableData, [tableData]);
 
-    // Parcourir chaque ZAG pour obtenir les stations
-    Object.values(jsonData).forEach(zag => {
-      Object.entries(zag).forEach(([stationCode, pollutantsObj]) => {
-        if (!pollutantSums[stationCode]) {
-          pollutantSums[stationCode] = {};
-        }
-
-        // Parcourir chaque polluant pour la station
-        Object.entries(pollutantsObj).forEach(([pollutant, readings]) => {
-          readings.forEach(reading => {
-            const [date, value, quality] = reading;
-            if (value && value !== '-') {
-              const numericValue = parseFloat(value);
-              if (!stationData[stationCode]) {
-                stationData[stationCode] = {};
-              }
-              if (!stationData[stationCode][pollutant]) {
-                stationData[stationCode][pollutant] = [];
-                pollutantSums[stationCode][pollutant] = 0;
-              }
-              stationData[stationCode][pollutant].push(numericValue);
-              pollutantSums[stationCode][pollutant] += numericValue;
-            }
-          });
-        });
-      });
-    });
-
-    const averagedData = [];
-    Object.entries(stationData).forEach(([stationCode, pollutants]) => {
-      const totalSum = Object.values(pollutantSums[stationCode]).reduce((acc, value) => acc + value, 0);
-
-      Object.entries(pollutants).forEach(([pollutant, values]) => {
-        const average = values.reduce((acc, value) => acc + value, 0) / values.length;
-        const percentage = (pollutantSums[stationCode][pollutant] / totalSum) * 100;
-        averagedData.push({
-          station: stationNames[stationCode] || stationCode,
-          pollutant: pollutant,
-          average: average.toFixed(2),
-          percentage: percentage.toFixed(2) // Pas besoin d'ajouter le signe % ici, cela sera ajouté lors de l'affichage dans le tableau
-        });
-      });
-    });
-
-    // Appliquer le filtre de station sélectionnée
-    const filteredData = selectedStation
-      ? averagedData.filter(data => data.station === stationNames[selectedStation])
-      : averagedData;
-
-    setTableData(filteredData);
-  }, [selectedStation, stationNames]);
-
-  const columns = useMemo(() => [
+  const tableInstance = useTable(
     {
-      Header: 'Station',
-      accessor: 'station',
+      columns,
+      data,
     },
-    {
-      Header: 'Polluant',
-      accessor: 'pollutant',
-    },
-    {
-      Header: 'Moyenne',
-      accessor: 'average',
-    },
-  ], []);
+    useGlobalFilter,
+    useSortBy,
+    usePagination
+  );
 
   const {
     getTableProps,
     getTableBodyProps,
     headerGroups,
-    rows,
+    page,
     prepareRow,
-  } = useTable({
-    columns,
-    data: tableData,
-  });
+    initialState,
+  } = tableInstance;
+  initialState.pageSize = 11;
 
   return (
-  <Card extra={'w-full h-full sm:overflow-auto px-6'}>
-    <div className='flex justify-between items-center pt-4'>
-      <div className="text-xl font-bold text-navy-700 dark:text-white">
-        Tableau de données des stations
+    <Card extra={"w-full h-full p-4"}>
+      <div class="relative flex items-center justify-between">
+        <div class="text-xl font-bold text-navy-700 dark:text-white">
+          Development Table
+        </div>
+        <CardMenu />
       </div>
-      <select
-        value={selectedStation}
-        onChange={e => setSelectedStation(e.target.value)}
-        className="select"
-      >
-        <option value="">Toutes les stations</option>
-        {Object.entries(stationNames)
-          .sort((a, b) => a[1].localeCompare(b[1])) // Triez par nom de station
-          .map(([code, name]) => (
-            <option key={code} value={code}>{name}</option>
-          ))
-        }
-      </select>
-    </div>
 
-      <div className='mt-8 overflow-x-auto'>
-        <table {...getTableProps()} className='w-full'>
+      <div class="h-full overflow-x-scroll xl:overflow-x-hidden">
+        <table
+          {...getTableProps()}
+          className="mt-8 h-max w-full"
+          variant="simple"
+          color="gray-500"
+          mb="24px"
+        >
           <thead>
-            {headerGroups.map(headerGroup => (
-              <tr {...headerGroup.getHeaderGroupProps()}>
-                {headerGroup.headers.map(column => (
-                  <th {...column.getHeaderProps()} className="border-b border-gray-200 px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    {column.render('Header')}
+            {headerGroups.map((headerGroup, index) => (
+              <tr {...headerGroup.getHeaderGroupProps()} key={index}>
+                {headerGroup.headers.map((column, index) => (
+                  <th
+                    {...column.getHeaderProps(column.getSortByToggleProps())}
+                    className="border-b border-gray-200 pr-32 pb-[10px] text-start dark:!border-navy-700 "
+                    key={index}
+                  >
+                    <div className="text-xs font-bold tracking-wide text-gray-600">
+                      {column.render("Header")}
+                    </div>
                   </th>
                 ))}
               </tr>
             ))}
           </thead>
           <tbody {...getTableBodyProps()}>
-            {rows.map(row => {
+            {page.map((row, index) => {
               prepareRow(row);
               return (
-                <tr {...row.getRowProps()}>
-                  {row.cells.map(cell => (
-                    <td {...cell.getCellProps()} className="px-6 py-4 whitespace-nowrap">
-                      {cell.render('Cell')}
-                    </td>
-                  ))}
+                <tr {...row.getRowProps()} key={index}>
+                  {row.cells.map((cell, index) => {
+                    let data = "";
+                    if (cell.column.Header === "NAME") {
+                      data = (
+                        <p className="text-sm font-bold text-navy-700 dark:text-white">
+                          {cell.value}
+                        </p>
+                      );
+                    } else if (cell.column.Header === "TECH") {
+                      data = (
+                        <div className="flex items-center gap-2">
+                          {cell.value.map((item, key) => {
+                            if (item === "apple") {
+                              return (
+                                <div
+                                  key={key}
+                                  className="text-[22px] text-gray-600 dark:text-white"
+                                >
+                                  <DiApple />
+                                </div>
+                              );
+                            } else if (item === "android") {
+                              return (
+                                <div
+                                  key={key}
+                                  className="text-[21px] text-gray-600 dark:text-white"
+                                >
+                                  <DiAndroid />
+                                </div>
+                              );
+                            } else if (item === "windows") {
+                              return (
+                                <div
+                                  key={key}
+                                  className="text-xl text-gray-600 dark:text-white"
+                                >
+                                  <DiWindows />
+                                </div>
+                              );
+                            } else return null;
+                          })}
+                        </div>
+                      );
+                    } else if (cell.column.Header === "DATE") {
+                      data = (
+                        <p className="text-sm font-bold text-navy-700 dark:text-white">
+                          {cell.value}
+                        </p>
+                      );
+                    } else if (cell.column.Header === "PROGRESS") {
+                      data = (
+                        <div className="flex items-center gap-3">
+                          <p className="text-sm font-bold text-navy-700 dark:text-white">
+                            {cell.value}%
+                          </p>
+                          <Progress width="w-[68px]" value={cell.value} />
+                        </div>
+                      );
+                    }
+                    return (
+                      <td
+                        {...cell.getCellProps()}
+                        key={index}
+                        className="pt-[14px] pb-3 text-[14px]"
+                      >
+                        {data}
+                      </td>
+                    );
+                  })}
                 </tr>
               );
             })}
@@ -153,4 +157,4 @@ const CheckTable = () => {
   );
 };
 
-export default CheckTable;
+export default DevelopmentTable;

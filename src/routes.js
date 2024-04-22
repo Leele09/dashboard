@@ -53,7 +53,7 @@ const routes = [
     component: <Profile />,
   },
   {
-    name: "Carte",
+    name: "Carte de France",
     layout: "/admin",
     icon: <MdPerson className="h-6 w-6" />,
     path: "Cart",

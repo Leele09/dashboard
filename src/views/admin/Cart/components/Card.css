@@ -1,0 +1,349 @@
+@import "~leaflet/dist/leaflet.css";
+/* Card.css */
+
+.card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.card-content {
+    color: #666;
+}
+
+.map-container {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.legend {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.legend-item {
+    margin-top: 10px;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.input {
+    width: 100%;
+    height: 100%;
+}
+
+
+.weather-details p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.weather-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-input input[type="text"] {
+    display: inline-block;
+    width: calc(100% - 100px);
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #666;
+    margin-right: 10px;
+}
+
+.weather-input button {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 0 15px;
+    background-color: #4318FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.weather-input button:hover {
+    background-color: black;
+
+}
+
+.custom-btn {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 0 15px;
+    background-color: #4318FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.custom-btn:hover {
+    background-color: black;
+}
+
+.weather-card-container {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none; /* Pour Firefox */
+    -ms-overflow-style: none; /* Pour IE 11 */
+}
+
+.weather-card {
+    flex-shrink: 0;
+    margin-right: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.weather-icon {
+    text-align: center;
+}
+
+
+.custom-marker-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 2px solid #3388ff;
+    border-radius: 50%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+.marker-container {
+    padding: 5px;
+}
+
+.city-name {
+    font-weight: bold;
+}
+
+.weather-description {
+    margin-top: 5px;
+}
+
+.temperature {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.b {
+    text-align: center;
+}
+
+
+.popup {
+    max-width: 250px;
+    border: 1px solid;
+    border-radius: 4px 4px 4px 4px;
+    width: 100%;
+}
+
+.popup-header {
+    background-color: #466799;
+    color: white;
+    padding: 8px;
+    border-radius: 0 0 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.popup-header h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+
+.popup-body {
+    padding: 10px;
+}
+
+.popup-body p {
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.popup-body img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.popup-body ul {
+    padding: 0;
+    margin: 0;
+}
+
+.popup-body ul li {
+    list-style: none;
+    font-size: 14px;
+}
+iframe {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.windy-container {
+    width: 100%;
+    height: 400px;
+}
+
+#windy {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+#windy #bottom,
+#windy #mobile-ovr-select,
+#windy #embed-zoom {
+    display: none !important;
+}
+
+#windy #logo-wrapper {
+    top: initial;
+    bottom: 65px;
+}
+
+#windy #logo-wrapper #logo {
+    left: 80px;
+}
+
+
+
+/* Styles pour la carte */
+.leaflet-container {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les marqueurs */
+.leaflet-marker-icon {
+    background-size: cover;
+    width: 25px;
+    height: 41px;
+}
+
+.leaflet-marker-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Styles pour le popup */
+.leaflet-popup-content {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.leaflet-popup-content h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.leaflet-popup-content p {
+    margin: 0;
+}
+
+.mb-4 button {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 0 15px;
+    background-color: #4318FF;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+
+}
+
+
+.weather-widget {
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.weather-widget:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.weather-icon:hover {
+    transform: scale(1.1);
+}
+
+.fas {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

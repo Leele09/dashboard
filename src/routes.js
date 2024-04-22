@@ -2,48 +2,76 @@ import React from "react";
 
 // Admin Imports
 import MainDashboard from "views/admin/default";
+//import NFTMarketplace from "views/admin/marketplace";
+import Profile from "views/admin/profile";
+import Cart from "views/admin/Cart"
 import DataTables from "views/admin/tables";
+import RTLDefault from "views/rtl/default";
 
-
+// Auth Imports
+//import SignIn from "views/auth/SignIn";
 
 // Icon Imports
 import {
   MdHome,
+  MdOutlineShoppingCart,
   MdBarChart,
+  MdPerson,
+  MdLock,
 } from "react-icons/md";
-import {FaLocationDot} from "react-icons/fa6";
-import {RiQuestionLine} from "react-icons/ri";
+import Francemap from "./views/admin/Cart/components/Francemap";
+//import Cart from "./views/admin/Cart";
 
 const routes = [
   {
-    name: "Tableau de bord",
+    name: "Page d'accueil",
     layout: "/admin",
     path: "default",
     icon: <MdHome className="h-6 w-6" />,
     component: <MainDashboard />,
   },
+  //{
+  //  name: "NFT Marketplace",
+  //  layout: "/admin",
+  //  path: "nft-marketplace",
+  //  icon: <MdOutlineShoppingCart className="h-6 w-6" />,
+  //  component: <NFTMarketplace />,
+  //  secondary: true,
+  //},
   {
-    name: "Stations",
-    layout: "/admin",
-    path: "nft-marketplace",
-    icon: <FaLocationDot className="h-6 w-6" />,
-    component: <DataTables />,
-    secondary: true,
-  },
-  {
-    name: "Tableau données brut",
+    name: "Tableau des données",
     layout: "/admin",
     icon: <MdBarChart className="h-6 w-6" />,
     path: "data-tables",
     component: <DataTables />,
   },
   {
-    name: "Documentation",
+    name: "Profile",
     layout: "/admin",
-    path: "nft-marketplace",
-    icon: <RiQuestionLine className="h-6 w-6" />,
-    component: <DataTables />,
-    secondary: true,
+    path: "profile",
+    icon: <MdPerson className="h-6 w-6" />,
+    component: <Profile />,
+  },
+  {
+    name: "Carte de France",
+    layout: "/admin",
+    icon: <MdPerson className="h-6 w-6" />,
+    path: "Cart",
+    component: <Francemap />,
+  },
+  //{
+  //  name: "Sign In",
+  //  layout: "/auth",
+  //  path: "sign-in",
+  //  icon: <MdLock className="h-6 w-6" />,
+  //  component: <SignIn />,
+  //},
+  {
+    name: "RTL Admin",
+    layout: "/rtl",
+    path: "rtl",
+    icon: <MdHome className="h-6 w-6" />,
+    component: <RTLDefault />,
   },
 ];
 export default routes;

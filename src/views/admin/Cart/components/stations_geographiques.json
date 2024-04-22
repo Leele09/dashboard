@@ -1,0 +1,4618 @@
+[
+  {
+    "Code station": "FR01005",
+    "Nom station": "Hayange",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.324722,
+    "Longitude": 6.076108
+  },
+  {
+    "Code station": "FR01011",
+    "Nom station": "Metz-Centre",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.119442,
+    "Longitude": 6.180833
+  },
+  {
+    "Code station": "FR01012",
+    "Nom station": "Metz-Borny",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.110283,
+    "Longitude": 6.223336
+  },
+  {
+    "Code station": "FR01014",
+    "Nom station": "Pont-à-Mousson",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.915,
+    "Longitude": 6.058336
+  },
+  {
+    "Code station": "FR01015",
+    "Nom station": "Blénod-lès-PAM",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.884724,
+    "Longitude": 6.051392
+  },
+  {
+    "Code station": "FR01016",
+    "Nom station": "Atton",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "GRAND EST",
+    "Latitude": 48.886387,
+    "Longitude": 6.093611
+  },
+  {
+    "Code station": "FR01018",
+    "Nom station": "Scy-Chazelles",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.107502,
+    "Longitude": 6.122775
+  },
+  {
+    "Code station": "FR01019",
+    "Nom station": "Thionville-Piscine",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.36861,
+    "Longitude": 6.160831
+  },
+  {
+    "Code station": "FR01020",
+    "Nom station": "Thionville-Centre",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.358337,
+    "Longitude": 6.156942
+  },
+  {
+    "Code station": "FR01021",
+    "Nom station": "Thionville-Garche",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.394444,
+    "Longitude": 6.201392
+  },
+  {
+    "Code station": "FR01059",
+    "Nom station": "HAYANGE-MARSPICH",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.3374,
+    "Longitude": 6.08207
+  },
+  {
+    "Code station": "FR01060",
+    "Nom station": "Malroy",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "GRAND EST",
+    "Latitude": 49.16885,
+    "Longitude": 6.212669
+  },
+  {
+    "Code station": "FR01061",
+    "Nom station": "Florange_Bétange_HAP",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.3331,
+    "Longitude": 6.1147
+  },
+  {
+    "Code station": "FR01063",
+    "Nom station": "Serémange-Erzange",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.321334,
+    "Longitude": 6.103931
+  },
+  {
+    "Code station": "FR01064",
+    "Nom station": "Metz- Pont Grilles",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.12508,
+    "Longitude": 6.181219
+  },
+  {
+    "Code station": "FR01065",
+    "Nom station": "Belleville sur Meuse",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.16778,
+    "Longitude": 5.387461
+  },
+  {
+    "Code station": "FR02001",
+    "Nom station": "Berre l'Etang",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.486234,
+    "Longitude": 5.171939
+  },
+  {
+    "Code station": "FR02004",
+    "Nom station": "Martigues P. Central",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.416661,
+    "Longitude": 5.042731
+  },
+  {
+    "Code station": "FR02006",
+    "Nom station": "Martigues Laurons",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.358982,
+    "Longitude": 5.023388
+  },
+  {
+    "Code station": "FR02007",
+    "Nom station": "Martigues La Gatasse",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.360692,
+    "Longitude": 5.058139
+  },
+  {
+    "Code station": "FR02008",
+    "Nom station": "Port de Bouc Leque",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.401952,
+    "Longitude": 4.981919
+  },
+  {
+    "Code station": "FR02009",
+    "Nom station": "Port Saint Louis",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.39378,
+    "Longitude": 4.801024
+  },
+  {
+    "Code station": "FR02011",
+    "Nom station": "Fos sur Mer",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.437858,
+    "Longitude": 4.945116
+  },
+  {
+    "Code station": "FR02012",
+    "Nom station": "Istres",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.506149,
+    "Longitude": 4.982898
+  },
+  {
+    "Code station": "FR02013",
+    "Nom station": "Fos Les Carabins",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.458927,
+    "Longitude": 4.934572
+  },
+  {
+    "Code station": "FR02020",
+    "Nom station": "Rognac les Brets",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.510802,
+    "Longitude": 5.220046
+  },
+  {
+    "Code station": "FR02021",
+    "Nom station": "Sausset les Pins",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.331245,
+    "Longitude": 5.117696
+  },
+  {
+    "Code station": "FR02022",
+    "Nom station": "Arles",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.675114,
+    "Longitude": 4.62921
+  },
+  {
+    "Code station": "FR02028",
+    "Nom station": "Martigues Lavera",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.386564,
+    "Longitude": 5.026868
+  },
+  {
+    "Code station": "FR02029",
+    "Nom station": "Chateauneuf La Mede",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.399546,
+    "Longitude": 5.113214
+  },
+  {
+    "Code station": "FR02041",
+    "Nom station": "SALON",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.639002,
+    "Longitude": 5.101097
+  },
+  {
+    "Code station": "FR02043",
+    "Nom station": "Marignane",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.4165306,
+    "Longitude": 5.222281
+  },
+  {
+    "Code station": "FR03006",
+    "Nom station": "MARSEILLE RABATAU",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.276451,
+    "Longitude": 5.39736
+  },
+  {
+    "Code station": "FR03014",
+    "Nom station": "MARSEILLE ST LOUIS",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.348048,
+    "Longitude": 5.360119
+  },
+  {
+    "Code station": "FR03021",
+    "Nom station": "AIX ROY RENE",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.524075,
+    "Longitude": 5.448164
+  },
+  {
+    "Code station": "FR03027",
+    "Nom station": "PLAN AUPS/STE  BAUME",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.335201,
+    "Longitude": 5.727365
+  },
+  {
+    "Code station": "FR03029",
+    "Nom station": "AIX CENTRE ECOLE ART",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.530285,
+    "Longitude": 5.440912
+  },
+  {
+    "Code station": "FR03030",
+    "Nom station": "GARDANNE",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.453584,
+    "Longitude": 5.466672
+  },
+  {
+    "Code station": "FR03032",
+    "Nom station": "AUBAGNE LES PASSONS",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.293138,
+    "Longitude": 5.574184
+  },
+  {
+    "Code station": "FR03037",
+    "Nom station": "VALLEE HUVEAUNE",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.283341,
+    "Longitude": 5.511384
+  },
+  {
+    "Code station": "FR03043",
+    "Nom station": "MARSEILLE 5 AVENUES",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.305287,
+    "Longitude": 5.394716
+  },
+  {
+    "Code station": "FR03048",
+    "Nom station": "AIX PLATANES",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.555777,
+    "Longitude": 5.461232
+  },
+  {
+    "Code station": "FR03060",
+    "Nom station": "LA SEYNE GENOUD",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.101565,
+    "Longitude": 5.875404
+  },
+  {
+    "Code station": "FR03067",
+    "Nom station": "BRIGNOLES",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.398731,
+    "Longitude": 6.075611
+  },
+  {
+    "Code station": "FR03068",
+    "Nom station": "TOULON FOCH",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.126821,
+    "Longitude": 5.921605
+  },
+  {
+    "Code station": "FR03069",
+    "Nom station": "HYERES",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.119737,
+    "Longitude": 6.131319
+  },
+  {
+    "Code station": "FR03070",
+    "Nom station": "ESTEREL",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.437874,
+    "Longitude": 6.76839
+  },
+  {
+    "Code station": "FR03071",
+    "Nom station": "TOULON CLARET",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.131113,
+    "Longitude": 5.924184
+  },
+  {
+    "Code station": "FR03080",
+    "Nom station": "AVIGNON   MAIRIE",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.949673,
+    "Longitude": 4.804341
+  },
+  {
+    "Code station": "FR03084",
+    "Nom station": "LE PONTET",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.960144,
+    "Longitude": 4.856731
+  },
+  {
+    "Code station": "FR03086",
+    "Nom station": "APT",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.88012,
+    "Longitude": 5.362038
+  },
+  {
+    "Code station": "FR03087",
+    "Nom station": "Avignon Semard",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.93706,
+    "Longitude": 4.824909
+  },
+  {
+    "Code station": "FR03088",
+    "Nom station": "CARPENTRAS",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 44.060347,
+    "Longitude": 5.067413
+  },
+  {
+    "Code station": "FR04002",
+    "Nom station": "GENNEVILLIERS",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.92972,
+    "Longitude": 2.294722
+  },
+  {
+    "Code station": "FR04004",
+    "Nom station": "PARIS 18eme",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.891666,
+    "Longitude": 2.346667
+  },
+  {
+    "Code station": "FR04012",
+    "Nom station": "Place Victor Basch",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.827778,
+    "Longitude": 2.3275
+  },
+  {
+    "Code station": "FR04014",
+    "Nom station": "PARIS 12eme",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.837223,
+    "Longitude": 2.3939
+  },
+  {
+    "Code station": "FR04017",
+    "Nom station": "NEUILLY-SUR-SEINE",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.88139,
+    "Longitude": 2.278056
+  },
+  {
+    "Code station": "FR04018",
+    "Nom station": "AUBERVILLIERS",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.9039,
+    "Longitude": 2.3847
+  },
+  {
+    "Code station": "FR04023",
+    "Nom station": "CERGY-PONTOISE",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 49.04639,
+    "Longitude": 2.043056
+  },
+  {
+    "Code station": "FR04024",
+    "Nom station": "GONESSE",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.99083,
+    "Longitude": 2.444722
+  },
+  {
+    "Code station": "FR04029",
+    "Nom station": "VERSAILLES",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.799168,
+    "Longitude": 2.130556
+  },
+  {
+    "Code station": "FR04031",
+    "Nom station": "Av Champs Elysees",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.86889,
+    "Longitude": 2.311944
+  },
+  {
+    "Code station": "FR04034",
+    "Nom station": "VITRY-SUR-SEINE",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.7758,
+    "Longitude": 2.3758
+  },
+  {
+    "Code station": "FR04037",
+    "Nom station": "PARIS 13eme",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.82861,
+    "Longitude": 2.360278
+  },
+  {
+    "Code station": "FR04038",
+    "Nom station": "Zone Rurale SO",
+    "Secteur de la station": "rurale régionale",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.581944,
+    "Longitude": 1.883333
+  },
+  {
+    "Code station": "FR04048",
+    "Nom station": "Zone Rurale Nord",
+    "Secteur de la station": "rurale régionale",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 49.100277,
+    "Longitude": 2.343889
+  },
+  {
+    "Code station": "FR04049",
+    "Nom station": "LES ULIS",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.679443,
+    "Longitude": 2.165556
+  },
+  {
+    "Code station": "FR04051",
+    "Nom station": "ARGENTEUIL",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.95139,
+    "Longitude": 2.223611
+  },
+  {
+    "Code station": "FR04055",
+    "Nom station": "PARIS 1er Les Halles",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.86212,
+    "Longitude": 2.344616
+  },
+  {
+    "Code station": "FR04058",
+    "Nom station": "Auto A1 -Saint-Denis",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.925278,
+    "Longitude": 2.356667
+  },
+  {
+    "Code station": "FR04059",
+    "Nom station": "SAINT-DENIS",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.93722,
+    "Longitude": 2.361667
+  },
+  {
+    "Code station": "FR04060",
+    "Nom station": "PARIS 7eme",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.8572,
+    "Longitude": 2.2933
+  },
+  {
+    "Code station": "FR04063",
+    "Nom station": "MANTES-LA-JOLIE",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.9964,
+    "Longitude": 1.7033
+  },
+  {
+    "Code station": "FR04066",
+    "Nom station": "Zone rurale Sud",
+    "Secteur de la station": "rurale régionale",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.364166,
+    "Longitude": 2.236944
+  },
+  {
+    "Code station": "FR04069",
+    "Nom station": "MELUN",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.54139,
+    "Longitude": 2.661389
+  },
+  {
+    "Code station": "FR04071",
+    "Nom station": "Rue Bonaparte",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.856388,
+    "Longitude": 2.335278
+  },
+  {
+    "Code station": "FR04098",
+    "Nom station": "LOGNES",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.84028,
+    "Longitude": 2.635278
+  },
+  {
+    "Code station": "FR04099",
+    "Nom station": "NOGENT-SUR-MARNE",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.840557,
+    "Longitude": 2.484444
+  },
+  {
+    "Code station": "FR04100",
+    "Nom station": "VILLEMOMBLE",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.881947,
+    "Longitude": 2.507222
+  },
+  {
+    "Code station": "FR04101",
+    "Nom station": "CHAMPIGNY-SUR-MARNE",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.816387,
+    "Longitude": 2.5175
+  },
+  {
+    "Code station": "FR04118",
+    "Nom station": "Place de l'Opéra",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.870274,
+    "Longitude": 2.3325
+  },
+  {
+    "Code station": "FR04122",
+    "Nom station": "RN6-MELUN",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.528057,
+    "Longitude": 2.653611
+  },
+  {
+    "Code station": "FR04123",
+    "Nom station": "RN2-PANTIN",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.90222,
+    "Longitude": 2.390833
+  },
+  {
+    "Code station": "FR04131",
+    "Nom station": "Boulevard Haussmann",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.873333,
+    "Longitude": 2.330278
+  },
+  {
+    "Code station": "FR04135",
+    "Nom station": "Boulevard Soult",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.83796,
+    "Longitude": 2.408061
+  },
+  {
+    "Code station": "FR04141",
+    "Nom station": "Quai des Celestins",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.85278,
+    "Longitude": 2.360556
+  },
+  {
+    "Code station": "FR04142",
+    "Nom station": "Zone Rurale Nord-Est",
+    "Secteur de la station": "rurale régionale",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 49.028057,
+    "Longitude": 2.750278
+  },
+  {
+    "Code station": "FR04149",
+    "Nom station": "MONTGERON",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.7067,
+    "Longitude": 2.4572
+  },
+  {
+    "Code station": "FR04150",
+    "Nom station": "LA DEFENSE",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.891388,
+    "Longitude": 2.240556
+  },
+  {
+    "Code station": "FR04156",
+    "Nom station": "BOBIGNY",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.902504,
+    "Longitude": 2.4525
+  },
+  {
+    "Code station": "FR04158",
+    "Nom station": "Zone Rurale NO",
+    "Secteur de la station": "rurale régionale",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 49.063087,
+    "Longitude": 1.866381
+  },
+  {
+    "Code station": "FR04173",
+    "Nom station": "RD934 Coulommiers",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.8059,
+    "Longitude": 3.084158
+  },
+  {
+    "Code station": "FR04179",
+    "Nom station": "PARIS Stade Lenglen",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.830387,
+    "Longitude": 2.269889
+  },
+  {
+    "Code station": "FR04180",
+    "Nom station": "RN20 - MONTLHERY",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.64093,
+    "Longitude": 2.26872
+  },
+  {
+    "Code station": "FR04181",
+    "Nom station": "RAMBOUILLET",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.63373,
+    "Longitude": 1.830529
+  },
+  {
+    "Code station": "FR04184",
+    "Nom station": "BAGNEAUX-SUR-LOING",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.231475,
+    "Longitude": 2.7061777778
+  },
+  {
+    "Code station": "FR04185",
+    "Nom station": "POMMEUSE",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.8158806,
+    "Longitude": 2.9912472222
+  },
+  {
+    "Code station": "FR04319",
+    "Nom station": "TREMBLAY-EN-FRANCE",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.95555,
+    "Longitude": 2.575278
+  },
+  {
+    "Code station": "FR04323",
+    "Nom station": "EVRY",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.62722,
+    "Longitude": 2.429167
+  },
+  {
+    "Code station": "FR04324",
+    "Nom station": "Zone Rurale Est",
+    "Secteur de la station": "rurale régionale",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.761665,
+    "Longitude": 3.058333
+  },
+  {
+    "Code station": "FR04328",
+    "Nom station": "Zone Rurale SE",
+    "Secteur de la station": "rurale régionale",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.3547,
+    "Longitude": 2.6453
+  },
+  {
+    "Code station": "FR04329",
+    "Nom station": "Bld peripherique Est",
+    "Secteur de la station": "urbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.838615,
+    "Longitude": 2.412781
+  },
+  {
+    "Code station": "FR04331",
+    "Nom station": "LIMAY",
+    "Secteur de la station": "périurbaine",
+    "Région": "ILE-DE-FRANCE",
+    "Latitude": 48.985523,
+    "Longitude": 1.754142
+  },
+  {
+    "Code station": "FR05010",
+    "Nom station": "St Romain de Colbosc",
+    "Secteur de la station": "périurbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.528927,
+    "Longitude": 0.358733
+  },
+  {
+    "Code station": "FR05037",
+    "Nom station": "Caucriauville",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.503906,
+    "Longitude": 0.175731
+  },
+  {
+    "Code station": "FR05040",
+    "Nom station": "Honfleur Sce Tech.",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.415108,
+    "Longitude": 0.2437
+  },
+  {
+    "Code station": "FR05056",
+    "Nom station": "Quillebeuf Phare",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NORMANDIE",
+    "Latitude": 49.47372,
+    "Longitude": 0.526158
+  },
+  {
+    "Code station": "FR05069",
+    "Nom station": "Tancarville Mairie",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NORMANDIE",
+    "Latitude": 49.487682,
+    "Longitude": 0.451756
+  },
+  {
+    "Code station": "FR05070",
+    "Nom station": "Harfleur Ecole Coty",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.505,
+    "Longitude": 0.201694
+  },
+  {
+    "Code station": "FR05072",
+    "Nom station": "Sainte Adresse",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.50386,
+    "Longitude": 0.084614
+  },
+  {
+    "Code station": "FR05074",
+    "Nom station": "Le Havre Ec. Herriot",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.48963,
+    "Longitude": 0.100703
+  },
+  {
+    "Code station": "FR05078",
+    "Nom station": "Le Havre Massillon",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.4983,
+    "Longitude": 0.142706
+  },
+  {
+    "Code station": "FR05080",
+    "Nom station": "Rogerville Mairie",
+    "Secteur de la station": "périurbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.50362,
+    "Longitude": 0.266872
+  },
+  {
+    "Code station": "FR05081",
+    "Nom station": "La Cerlangue",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NORMANDIE",
+    "Latitude": 49.504036,
+    "Longitude": 0.411594
+  },
+  {
+    "Code station": "FR05082",
+    "Nom station": "Touques",
+    "Secteur de la station": "périurbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.348,
+    "Longitude": 0.109253
+  },
+  {
+    "Code station": "FR05083",
+    "Nom station": "Gonfreville l Orcher",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.50273,
+    "Longitude": 0.232486
+  },
+  {
+    "Code station": "FR05084",
+    "Nom station": "NDGravenchon Pasteur",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.493332,
+    "Longitude": 0.571853
+  },
+  {
+    "Code station": "FR05085",
+    "Nom station": "Lillebonne",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.512146,
+    "Longitude": 0.539036
+  },
+  {
+    "Code station": "FR05087",
+    "Nom station": "Maison Parc Brotonne",
+    "Secteur de la station": "rurale régionale",
+    "Région": "NORMANDIE",
+    "Latitude": 49.498295,
+    "Longitude": 0.758833
+  },
+  {
+    "Code station": "FR05088",
+    "Nom station": "Fécamp",
+    "Secteur de la station": "périurbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.75,
+    "Longitude": 0.4159
+  },
+  {
+    "Code station": "FR05089",
+    "Nom station": "Le Havre Lafaurie-montant",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.500187,
+    "Longitude": 0.110903
+  },
+  {
+    "Code station": "FR05090",
+    "Nom station": "Le Havre ville-haute",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.514686,
+    "Longitude": 0.100645
+  },
+  {
+    "Code station": "FR05500",
+    "Nom station": "Gonfreville l Orcher Côte Blanche",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.4989,
+    "Longitude": 0.2296
+  },
+  {
+    "Code station": "FR05501",
+    "Nom station": "Gonfreville Pissotière à Madame",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.4975,
+    "Longitude": 0.2531
+  },
+  {
+    "Code station": "FR05502",
+    "Nom station": "Quillebeuf sur Seine rue Féret",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NORMANDIE",
+    "Latitude": 49.4675,
+    "Longitude": 0.531
+  },
+  {
+    "Code station": "FR05503",
+    "Nom station": "Notre Dame de Gravenchon Prevert",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.4811,
+    "Longitude": 0.574611
+  },
+  {
+    "Code station": "FR06001",
+    "Nom station": "Valenciennes Acacias",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.35853,
+    "Longitude": 3.50804
+  },
+  {
+    "Code station": "FR06003",
+    "Nom station": "Douai Theuriet",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.37822,
+    "Longitude": 3.06586
+  },
+  {
+    "Code station": "FR06006",
+    "Nom station": "Valenciennes Wallon",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.36425,
+    "Longitude": 3.52273
+  },
+  {
+    "Code station": "FR06007",
+    "Nom station": "Maubeuge Joyeuse",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.27936,
+    "Longitude": 3.97691
+  },
+  {
+    "Code station": "FR06011",
+    "Nom station": "Denain Villars",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.32276,
+    "Longitude": 3.39593
+  },
+  {
+    "Code station": "FR06133",
+    "Nom station": "Cartignies",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.09225,
+    "Longitude": 3.85003
+  },
+  {
+    "Code station": "FR06134",
+    "Nom station": "Saint Amand",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.45647,
+    "Longitude": 3.42794
+  },
+  {
+    "Code station": "FR07004",
+    "Nom station": "Montferrand",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.79728,
+    "Longitude": 3.113833
+  },
+  {
+    "Code station": "FR07009",
+    "Nom station": "Jardin Lecoq",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.772167,
+    "Longitude": 3.0875
+  },
+  {
+    "Code station": "FR07022",
+    "Nom station": "Paray le Fresil",
+    "Secteur de la station": "rurale régionale",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 46.652668,
+    "Longitude": 3.600667
+  },
+  {
+    "Code station": "FR07028",
+    "Nom station": "Les Ancizes",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.929333,
+    "Longitude": 2.829806
+  },
+  {
+    "Code station": "FR07031",
+    "Nom station": "Rageade",
+    "Secteur de la station": "rurale régionale",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.10472,
+    "Longitude": 3.277361
+  },
+  {
+    "Code station": "FR07034",
+    "Nom station": "Clermont-Esplanade Gare",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.775696,
+    "Longitude": 3.09625
+  },
+  {
+    "Code station": "FR07039",
+    "Nom station": "Chamalières Europe",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.774728,
+    "Longitude": 3.062978
+  },
+  {
+    "Code station": "FR07048",
+    "Nom station": "Villeneuve sur Allier",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 46.659048,
+    "Longitude": 3.249247
+  },
+  {
+    "Code station": "FR07051",
+    "Nom station": "Beaulieu",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.769,
+    "Longitude": 3.155
+  },
+  {
+    "Code station": "FR07052",
+    "Nom station": "Aurillac-Lagarde",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 44.92008,
+    "Longitude": 2.441082
+  },
+  {
+    "Code station": "FR07053",
+    "Nom station": "Edouard Michelin",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.780434,
+    "Longitude": 3.111592
+  },
+  {
+    "Code station": "FR07054",
+    "Nom station": "Le Puy-Causans",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.039001,
+    "Longitude": 3.887001
+  },
+  {
+    "Code station": "FR07056",
+    "Nom station": "Pays du Mezenc",
+    "Secteur de la station": "rurale régionale",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 44.98377,
+    "Longitude": 4.226006
+  },
+  {
+    "Code station": "FR07057",
+    "Nom station": "Moulins Centre",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 46.5619722,
+    "Longitude": 3.3406388889
+  },
+  {
+    "Code station": "FR07058",
+    "Nom station": "Montluçon",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 46.340723,
+    "Longitude": 2.593945
+  },
+  {
+    "Code station": "FR07059",
+    "Nom station": "Vichy",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 46.130431,
+    "Longitude": 3.425694
+  },
+  {
+    "Code station": "FR07060",
+    "Nom station": "Royat Périurbaine",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.764111,
+    "Longitude": 3.046111
+  },
+  {
+    "Code station": "FR07061",
+    "Nom station": "Riom Périurbaine",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.89674,
+    "Longitude": 3.122254
+  },
+  {
+    "Code station": "FR07202",
+    "Nom station": "Stade Leclanche",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.807487,
+    "Longitude": 3.111111
+  },
+  {
+    "Code station": "FR08003",
+    "Nom station": "Montpellier Chaptal",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.611302,
+    "Longitude": 3.86626
+  },
+  {
+    "Code station": "FR08004",
+    "Nom station": "Montpellier St Denis",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.6051,
+    "Longitude": 3.87464
+  },
+  {
+    "Code station": "FR08016",
+    "Nom station": "Montpellier Prés d'Arènes",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.5915,
+    "Longitude": 3.88681
+  },
+  {
+    "Code station": "FR08017",
+    "Nom station": "Montpellier Périurbaine Sud (Lattes)",
+    "Secteur de la station": "périurbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.5705,
+    "Longitude": 3.9118
+  },
+  {
+    "Code station": "FR08018",
+    "Nom station": "Montpellier St Gely",
+    "Secteur de la station": "périurbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.6926,
+    "Longitude": 3.80021
+  },
+  {
+    "Code station": "FR08020",
+    "Nom station": "Lunel Viel",
+    "Secteur de la station": "périurbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.6758,
+    "Longitude": 4.08838
+  },
+  {
+    "Code station": "FR08022",
+    "Nom station": "Agathois-piscénois",
+    "Secteur de la station": "périurbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.2875,
+    "Longitude": 3.50484
+  },
+  {
+    "Code station": "FR08023",
+    "Nom station": "Biterrois-Narbonnais",
+    "Secteur de la station": "rurale régionale",
+    "Région": "OCCITANIE",
+    "Latitude": 43.4068,
+    "Longitude": 3.18878
+  },
+  {
+    "Code station": "FR08030",
+    "Nom station": "Pompignane",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.6096,
+    "Longitude": 3.89878
+  },
+  {
+    "Code station": "FR08209",
+    "Nom station": "Gard Rhodanien2",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "OCCITANIE",
+    "Latitude": 43.9426,
+    "Longitude": 4.67958
+  },
+  {
+    "Code station": "FR08252",
+    "Nom station": "GARNOR03",
+    "Secteur de la station": "périurbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 44.054475,
+    "Longitude": 4.697408
+  },
+  {
+    "Code station": "FR08614",
+    "Nom station": "Nimes Gauzy",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.8344,
+    "Longitude": 4.3744
+  },
+  {
+    "Code station": "FR08616",
+    "Nom station": "Nimes Planas",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.8299,
+    "Longitude": 4.36199
+  },
+  {
+    "Code station": "FR08617",
+    "Nom station": "Nimes La Calmette",
+    "Secteur de la station": "périurbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.9254,
+    "Longitude": 4.26581
+  },
+  {
+    "Code station": "FR08712",
+    "Nom station": "Perpignan St Esteve",
+    "Secteur de la station": "périurbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 42.7198,
+    "Longitude": 2.83988
+  },
+  {
+    "Code station": "FR08713",
+    "Nom station": "Perpignan Rigaud",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 42.6835,
+    "Longitude": 2.90351
+  },
+  {
+    "Code station": "FR08714",
+    "Nom station": "Perpignan Les Carmes",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 42.6955,
+    "Longitude": 2.90053
+  },
+  {
+    "Code station": "FR09003",
+    "Nom station": "place de VERDUN",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.162556,
+    "Longitude": -1.153603
+  },
+  {
+    "Code station": "FR09008",
+    "Nom station": "Aytré",
+    "Secteur de la station": "périurbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.135155,
+    "Longitude": -1.117042
+  },
+  {
+    "Code station": "FR09015",
+    "Nom station": "Les Couronneries",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.586918,
+    "Longitude": 0.358583
+  },
+  {
+    "Code station": "FR09103",
+    "Nom station": "Square Pablo Casals",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.647415,
+    "Longitude": 0.167167
+  },
+  {
+    "Code station": "FR09106",
+    "Nom station": "ANGOULEME-GAMBETTA",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.65145,
+    "Longitude": 0.16236667
+  },
+  {
+    "Code station": "FR09203",
+    "Nom station": "La Pallice3 LR",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.16161,
+    "Longitude": -1.211203
+  },
+  {
+    "Code station": "FR09301",
+    "Nom station": "AIRVAULT 2",
+    "Secteur de la station": "périurbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.824368,
+    "Longitude": -0.135461
+  },
+  {
+    "Code station": "FR09302",
+    "Nom station": "Zoodyssée Chizé",
+    "Secteur de la station": "rurale régionale",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.143173,
+    "Longitude": -0.396042
+  },
+  {
+    "Code station": "FR09303",
+    "Nom station": "Niort Venise",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.320016,
+    "Longitude": -0.482888
+  },
+  {
+    "Code station": "FR09304",
+    "Nom station": "AIRVAULT 3",
+    "Secteur de la station": "périurbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.823803,
+    "Longitude": -0.135608
+  },
+  {
+    "Code station": "FR09399",
+    "Nom station": "Niort Trafic 6",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.321976,
+    "Longitude": -0.4664312
+  },
+  {
+    "Code station": "FR09403",
+    "Nom station": "Poitiers-Le Nain",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.5909,
+    "Longitude": 0.3404
+  },
+  {
+    "Code station": "FR09404",
+    "Nom station": "Poitiers Centre  Augouard",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.58389,
+    "Longitude": 0.345556
+  },
+  {
+    "Code station": "FR10004",
+    "Nom station": "Malo-les-Bains",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 51.04858,
+    "Longitude": 2.42004
+  },
+  {
+    "Code station": "FR10012",
+    "Nom station": "Mardyck",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 51.01943,
+    "Longitude": 2.25099
+  },
+  {
+    "Code station": "FR10016",
+    "Nom station": "Calais Berthelot",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.94729,
+    "Longitude": 1.84308
+  },
+  {
+    "Code station": "FR10017",
+    "Nom station": "St Pol mer - cheminots",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 51.032761,
+    "Longitude": 2.332358
+  },
+  {
+    "Code station": "FR10025",
+    "Nom station": "Sangatte",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.94989,
+    "Longitude": 1.76917
+  },
+  {
+    "Code station": "FR10026",
+    "Nom station": "Calais Parmentier",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.9578,
+    "Longitude": 1.89008
+  },
+  {
+    "Code station": "FR10028",
+    "Nom station": "Gravelines PC/Drire",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.98106,
+    "Longitude": 2.14317
+  },
+  {
+    "Code station": "FR10029",
+    "Nom station": "Cappelle la Grande",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.99594,
+    "Longitude": 2.36627
+  },
+  {
+    "Code station": "FR10030",
+    "Nom station": "Boulogne Diderot",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.717029,
+    "Longitude": 1.605913
+  },
+  {
+    "Code station": "FR10032",
+    "Nom station": "Outreau",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.69435,
+    "Longitude": 1.57657
+  },
+  {
+    "Code station": "FR10034",
+    "Nom station": "Grande-synthe",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 51.02446,
+    "Longitude": 2.30215
+  },
+  {
+    "Code station": "FR10041",
+    "Nom station": "St Omer Ribot",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.74823,
+    "Longitude": 2.25978
+  },
+  {
+    "Code station": "FR10132",
+    "Nom station": "Campagne les B.",
+    "Secteur de la station": "rurale régionale",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.61048,
+    "Longitude": 1.99145
+  },
+  {
+    "Code station": "FR11007",
+    "Nom station": "Lille Leeds",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.6407944,
+    "Longitude": 3.074772
+  },
+  {
+    "Code station": "FR11016",
+    "Nom station": "Marcq CTM",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.67003,
+    "Longitude": 3.07656
+  },
+  {
+    "Code station": "FR11025",
+    "Nom station": "Lille Fives",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.62805,
+    "Longitude": 3.09031
+  },
+  {
+    "Code station": "FR11026",
+    "Nom station": "Halluin stade",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.775482,
+    "Longitude": 3.12568
+  },
+  {
+    "Code station": "FR11034",
+    "Nom station": "Roubaix Serres",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.706535,
+    "Longitude": 3.18066
+  },
+  {
+    "Code station": "FR11114",
+    "Nom station": "Wattignies",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.59774,
+    "Longitude": 3.04946
+  },
+  {
+    "Code station": "FR12004",
+    "Nom station": "ECOLE M.JACQUIER",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.575694,
+    "Longitude": 1.418064
+  },
+  {
+    "Code station": "FR12015",
+    "Nom station": "MIRAMONT",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.093611,
+    "Longitude": 0.743611
+  },
+  {
+    "Code station": "FR12016",
+    "Nom station": "DAURAT ST GAUDENS",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.106156,
+    "Longitude": 0.71955
+  },
+  {
+    "Code station": "FR12020",
+    "Nom station": "PEYRUSSE",
+    "Secteur de la station": "rurale nationale",
+    "Région": "OCCITANIE",
+    "Latitude": 43.6287,
+    "Longitude": 0.179069
+  },
+  {
+    "Code station": "FR12021",
+    "Nom station": "Toulouse Mazades",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.623606,
+    "Longitude": 1.438531
+  },
+  {
+    "Code station": "FR12026",
+    "Nom station": "ALBI DELMAS",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.927769,
+    "Longitude": 2.145897
+  },
+  {
+    "Code station": "FR12029",
+    "Nom station": "GAUDONVILLE",
+    "Secteur de la station": "rurale régionale",
+    "Région": "OCCITANIE",
+    "Latitude": 43.883933,
+    "Longitude": 0.845617
+  },
+  {
+    "Code station": "FR12030",
+    "Nom station": "Toulouse Berthelot",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.587344,
+    "Longitude": 1.444003
+  },
+  {
+    "Code station": "FR12031",
+    "Nom station": "BELESTA EN LAURAGAIS",
+    "Secteur de la station": "rurale régionale",
+    "Région": "OCCITANIE",
+    "Latitude": 43.44139,
+    "Longitude": 1.821944
+  },
+  {
+    "Code station": "FR12039",
+    "Nom station": "EISENHOWER SETMI",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.561581,
+    "Longitude": 1.393261
+  },
+  {
+    "Code station": "FR12040",
+    "Nom station": "CHAPITRE SETMI",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.556375,
+    "Longitude": 1.403964
+  },
+  {
+    "Code station": "FR12041",
+    "Nom station": "SICOVAL",
+    "Secteur de la station": "périurbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.457306,
+    "Longitude": 1.571469
+  },
+  {
+    "Code station": "FR12042",
+    "Nom station": "LOURDES LAPACCA",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.096247,
+    "Longitude": -0.040497
+  },
+  {
+    "Code station": "FR12044",
+    "Nom station": "Toulouse aéroport côté trafic",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.633478,
+    "Longitude": 1.375717
+  },
+  {
+    "Code station": "FR12047",
+    "Nom station": "BESSIERES ECONOTRE",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "OCCITANIE",
+    "Latitude": 43.803139,
+    "Longitude": 1.595475
+  },
+  {
+    "Code station": "FR12050",
+    "Nom station": "VIVIEZ-Place du 8 Mai",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 44.560544,
+    "Longitude": 2.226169
+  },
+  {
+    "Code station": "FR12052",
+    "Nom station": "Tarbes lycée Dupuy",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.230297,
+    "Longitude": 0.062339
+  },
+  {
+    "Code station": "FR12053",
+    "Nom station": "Stade Travet CASTRES",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.610497,
+    "Longitude": 2.23015
+  },
+  {
+    "Code station": "FR12054",
+    "Nom station": "TRAFIC_TOULOUSE",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.643944,
+    "Longitude": 1.468244
+  },
+  {
+    "Code station": "FR12085",
+    "Nom station": "Toulouse Port de l'Embouchure",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 43.610386,
+    "Longitude": 1.4152
+  },
+  {
+    "Code station": "FR12095",
+    "Nom station": "Rodez",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 44.35699225,
+    "Longitude": 2.57070422
+  },
+  {
+    "Code station": "FR14008",
+    "Nom station": "REVIN",
+    "Secteur de la station": "rurale nationale",
+    "Région": "GRAND EST",
+    "Latitude": 49.90778,
+    "Longitude": 4.63
+  },
+  {
+    "Code station": "FR14010",
+    "Nom station": "BETHENY",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.28222,
+    "Longitude": 4.051111
+  },
+  {
+    "Code station": "FR14011",
+    "Nom station": "DOUMER",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.250732,
+    "Longitude": 4.023064
+  },
+  {
+    "Code station": "FR14012",
+    "Nom station": "Jean d Aulan",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.224167,
+    "Longitude": 4.020556
+  },
+  {
+    "Code station": "FR14022",
+    "Nom station": "CHALONS",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.962223,
+    "Longitude": 4.36
+  },
+  {
+    "Code station": "FR14028",
+    "Nom station": "Rempart Perrier",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.0461,
+    "Longitude": 3.955911
+  },
+  {
+    "Code station": "FR14029",
+    "Nom station": "Capitainerie",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.7266,
+    "Longitude": 4.594781
+  },
+  {
+    "Code station": "FR14031",
+    "Nom station": "LA TOUR",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.301666,
+    "Longitude": 4.076944
+  },
+  {
+    "Code station": "FR14032",
+    "Nom station": "ST PARRES AUX TERTRE",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.299168,
+    "Longitude": 4.117222
+  },
+  {
+    "Code station": "FR14033",
+    "Nom station": "STE SAVINE",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.295002,
+    "Longitude": 4.050278
+  },
+  {
+    "Code station": "FR14042",
+    "Nom station": "St DIZIER L. Michel",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.645836,
+    "Longitude": 4.966111
+  },
+  {
+    "Code station": "FR14048",
+    "Nom station": "HAP Bourbonne",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 47.9542,
+    "Longitude": 5.7491
+  },
+  {
+    "Code station": "FR14051",
+    "Nom station": "CHARLEVILLE",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.745277,
+    "Longitude": 4.719167
+  },
+  {
+    "Code station": "FR14801",
+    "Nom station": "Métaux BSN",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.233612,
+    "Longitude": 4.056939
+  },
+  {
+    "Code station": "FR15013",
+    "Nom station": "Champ sur Drac",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.07954,
+    "Longitude": 5.728653
+  },
+  {
+    "Code station": "FR15018",
+    "Nom station": "Voiron Urbain",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.360176,
+    "Longitude": 5.589419
+  },
+  {
+    "Code station": "FR15031",
+    "Nom station": "Le Casset2",
+    "Secteur de la station": "rurale nationale",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 44.997,
+    "Longitude": 6.4694
+  },
+  {
+    "Code station": "FR15038",
+    "Nom station": "St Martin d'Heres",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.1828,
+    "Longitude": 5.7531
+  },
+  {
+    "Code station": "FR15043",
+    "Nom station": "Grenoble Les Frenes",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.1619,
+    "Longitude": 5.7356
+  },
+  {
+    "Code station": "FR15045",
+    "Nom station": "Grenoble PeriurbSud",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.0578,
+    "Longitude": 5.6767
+  },
+  {
+    "Code station": "FR15046",
+    "Nom station": "Grenoble Boulevards",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.18069,
+    "Longitude": 5.720625
+  },
+  {
+    "Code station": "FR15048",
+    "Nom station": "Gresivaudan Periurb",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.2797,
+    "Longitude": 5.8822
+  },
+  {
+    "Code station": "FR15053",
+    "Nom station": "Rocade Sud Eybens",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.15467,
+    "Longitude": 5.74523
+  },
+  {
+    "Code station": "FR16017",
+    "Nom station": "Nord-Est Alsace",
+    "Secteur de la station": "rurale régionale",
+    "Région": "GRAND EST",
+    "Latitude": 48.919357,
+    "Longitude": 8.158458
+  },
+  {
+    "Code station": "FR16029",
+    "Nom station": "STG Nord",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.610363,
+    "Longitude": 7.781631
+  },
+  {
+    "Code station": "FR16031",
+    "Nom station": "Vosges du Nord",
+    "Secteur de la station": "rurale régionale",
+    "Région": "GRAND EST",
+    "Latitude": 48.85731,
+    "Longitude": 7.314175
+  },
+  {
+    "Code station": "FR16034",
+    "Nom station": "STG Clemenceau",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.59043,
+    "Longitude": 7.744983
+  },
+  {
+    "Code station": "FR16040",
+    "Nom station": "Strasbourg A35",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.575985,
+    "Longitude": 7.727478
+  },
+  {
+    "Code station": "FR16041",
+    "Nom station": "Strasbourg Sud 2",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.5157,
+    "Longitude": 7.687819
+  },
+  {
+    "Code station": "FR16052",
+    "Nom station": "Thann",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 47.810932,
+    "Longitude": 7.105553
+  },
+  {
+    "Code station": "FR16054",
+    "Nom station": "Colmar Centre",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.074642,
+    "Longitude": 7.350667
+  },
+  {
+    "Code station": "FR16057",
+    "Nom station": "Mulhouse Nord",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 47.757435,
+    "Longitude": 7.347294
+  },
+  {
+    "Code station": "FR16059",
+    "Nom station": "Chalampé",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "GRAND EST",
+    "Latitude": 47.820248,
+    "Longitude": 7.538683
+  },
+  {
+    "Code station": "FR16060",
+    "Nom station": "C.C.3 Frontières",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 47.594913,
+    "Longitude": 7.568175
+  },
+  {
+    "Code station": "FR16064",
+    "Nom station": "Colmar Sud",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.065414,
+    "Longitude": 7.333139
+  },
+  {
+    "Code station": "FR16065",
+    "Nom station": "Mulhouse Est",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 47.723106,
+    "Longitude": 7.341603
+  },
+  {
+    "Code station": "FR16066",
+    "Nom station": "Mulhouse Sud 2",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 47.737415,
+    "Longitude": 7.309075
+  },
+  {
+    "Code station": "FR16067",
+    "Nom station": "Vieux Thann 3",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 47.80221,
+    "Longitude": 7.122844
+  },
+  {
+    "Code station": "FR16069",
+    "Nom station": "Mulhouse-Briand",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 47.747684,
+    "Longitude": 7.321364
+  },
+  {
+    "Code station": "FR16302",
+    "Nom station": "Vosges Moyennes 2",
+    "Secteur de la station": "rurale nationale",
+    "Région": "GRAND EST",
+    "Latitude": 48.492992,
+    "Longitude": 7.1298
+  },
+  {
+    "Code station": "FR18019",
+    "Nom station": "Nogent sur Oise",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.276386,
+    "Longitude": 2.482167
+  },
+  {
+    "Code station": "FR18035",
+    "Nom station": "Salouel",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.86889,
+    "Longitude": 2.239806
+  },
+  {
+    "Code station": "FR18039",
+    "Nom station": "Arrest",
+    "Secteur de la station": "rurale régionale",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.129448,
+    "Longitude": 1.610833
+  },
+  {
+    "Code station": "FR18042",
+    "Nom station": "P. Roth St Quentin",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.851334,
+    "Longitude": 3.284
+  },
+  {
+    "Code station": "FR18043",
+    "Nom station": "Faiencerie Creil",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.259552,
+    "Longitude": 2.474397
+  },
+  {
+    "Code station": "FR18045",
+    "Nom station": "Roye",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.696697,
+    "Longitude": 2.801139
+  },
+  {
+    "Code station": "FR18053",
+    "Nom station": "St Pierre Amiens",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.901667,
+    "Longitude": 2.304597
+  },
+  {
+    "Code station": "FR18055",
+    "Nom station": "Creil République",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.260342,
+    "Longitude": 2.475004
+  },
+  {
+    "Code station": "FR18057",
+    "Nom station": "Neuilly-Saint-Front",
+    "Secteur de la station": "rurale régionale",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.174931,
+    "Longitude": 3.260819
+  },
+  {
+    "Code station": "FR18079",
+    "Nom station": "TRAFIC AMIENS",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.87722,
+    "Longitude": 2.2825
+  },
+  {
+    "Code station": "FR18080",
+    "Nom station": "TRAF Saint Quent 14",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.84282,
+    "Longitude": 3.281439
+  },
+  {
+    "Code station": "FR18089",
+    "Nom station": "Trafic Beauvais 1",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 49.435932,
+    "Longitude": 2.084292
+  },
+  {
+    "Code station": "FR19002",
+    "Nom station": "Rennes Laennec",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.10861,
+    "Longitude": -1.66586
+  },
+  {
+    "Code station": "FR19007",
+    "Nom station": "Rennes Les Halles",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.10751,
+    "Longitude": -1.67984
+  },
+  {
+    "Code station": "FR19010",
+    "Nom station": "Rennes St-Yves",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.11078,
+    "Longitude": -1.68293
+  },
+  {
+    "Code station": "FR19012",
+    "Nom station": "Brest Mace",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.38618,
+    "Longitude": -4.4866
+  },
+  {
+    "Code station": "FR19014",
+    "Nom station": "Brest Desmoulins",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.39746,
+    "Longitude": -4.48871
+  },
+  {
+    "Code station": "FR19016",
+    "Nom station": "BREST Plouzané",
+    "Secteur de la station": "périurbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.359444,
+    "Longitude": -4.568055
+  },
+  {
+    "Code station": "FR19017",
+    "Nom station": "Rennes Pays-Bas",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.08965,
+    "Longitude": -1.65911
+  },
+  {
+    "Code station": "FR19018",
+    "Nom station": "MORDELLES BELLAIS",
+    "Secteur de la station": "périurbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.082883,
+    "Longitude": -1.834583
+  },
+  {
+    "Code station": "FR19019",
+    "Nom station": "Rennes Rue Saint Malo",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.12659,
+    "Longitude": -1.68606
+  },
+  {
+    "Code station": "FR19020",
+    "Nom station": "Kergoff",
+    "Secteur de la station": "rurale nationale",
+    "Région": "BRETAGNE",
+    "Latitude": 48.261963,
+    "Longitude": -2.943631
+  },
+  {
+    "Code station": "FR19032",
+    "Nom station": "Lorient B. Bissonnet",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 47.7425,
+    "Longitude": -3.39501
+  },
+  {
+    "Code station": "FR19033",
+    "Nom station": "Vannes UTA",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 47.64892,
+    "Longitude": -2.76399
+  },
+  {
+    "Code station": "FR19037",
+    "Nom station": "Lorient Normandie",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 47.758947,
+    "Longitude": -3.36938
+  },
+  {
+    "Code station": "FR19052",
+    "Nom station": "Quimper Pommiers",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 47.99612,
+    "Longitude": -4.09972
+  },
+  {
+    "Code station": "FR19053",
+    "Nom station": "Quimper Zola",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 47.986606,
+    "Longitude": -4.097658
+  },
+  {
+    "Code station": "FR19061",
+    "Nom station": "Saint Brieuc Balzac",
+    "Secteur de la station": "urbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.51351,
+    "Longitude": -2.74953
+  },
+  {
+    "Code station": "FR19082",
+    "Nom station": "StMalo Rocabey",
+    "Secteur de la station": "périurbaine",
+    "Région": "BRETAGNE",
+    "Latitude": 48.65306,
+    "Longitude": -2.00268
+  },
+  {
+    "Code station": "FR20013",
+    "Nom station": "A7 SUD LYONNAIS",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.720024,
+    "Longitude": 4.818156
+  },
+  {
+    "Code station": "FR20017",
+    "Nom station": "GERLAND",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.73529,
+    "Longitude": 4.829794
+  },
+  {
+    "Code station": "FR20019",
+    "Nom station": "GRANDCLEMENT",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.75836,
+    "Longitude": 4.886214
+  },
+  {
+    "Code station": "FR20029",
+    "Nom station": "FEYZIN STADE",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.6639,
+    "Longitude": 4.8459
+  },
+  {
+    "Code station": "FR20031",
+    "Nom station": "ST FONS CENTRE",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.7078,
+    "Longitude": 4.8644
+  },
+  {
+    "Code station": "FR20037",
+    "Nom station": "TERNAY",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.6019,
+    "Longitude": 4.8022
+  },
+  {
+    "Code station": "FR20046",
+    "Nom station": "VAULX EN VELIN",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.7789,
+    "Longitude": 4.9247
+  },
+  {
+    "Code station": "FR20047",
+    "Nom station": "COTIERE AIN",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.823223,
+    "Longitude": 4.953958
+  },
+  {
+    "Code station": "FR20048",
+    "Nom station": "SAINT EXUPERY",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.7533,
+    "Longitude": 5.0722
+  },
+  {
+    "Code station": "FR20049",
+    "Nom station": "HAUT BEAUJOLAIS",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.96141,
+    "Longitude": 4.465711
+  },
+  {
+    "Code station": "FR20060",
+    "Nom station": "VENISSIEUX Village",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.7036,
+    "Longitude": 4.8836
+  },
+  {
+    "Code station": "FR20062",
+    "Nom station": "LYON Centre",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.757732,
+    "Longitude": 4.854214
+  },
+  {
+    "Code station": "FR20064",
+    "Nom station": "VERNAISON",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.650616,
+    "Longitude": 4.816911
+  },
+  {
+    "Code station": "FR20069",
+    "Nom station": "Lyon Périphérique",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.77482,
+    "Longitude": 4.898572
+  },
+  {
+    "Code station": "FR20070",
+    "Nom station": "LYON TRAFIC JAURES",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.7496944,
+    "Longitude": 4.8443888889
+  },
+  {
+    "Code station": "FR20077",
+    "Nom station": "Villefranche Centre ",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.990112,
+    "Longitude": 4.715566
+  },
+  {
+    "Code station": "FR21001",
+    "Nom station": "Caen Chemin-Vert",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.19222,
+    "Longitude": -0.391111
+  },
+  {
+    "Code station": "FR21016",
+    "Nom station": "Caen Vaucelles",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.175278,
+    "Longitude": -0.353611
+  },
+  {
+    "Code station": "FR21017",
+    "Nom station": "Ouistreham",
+    "Secteur de la station": "périurbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.289444,
+    "Longitude": -0.257778
+  },
+  {
+    "Code station": "FR21019",
+    "Nom station": "IFS Caen sud",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.15167,
+    "Longitude": -0.352778
+  },
+  {
+    "Code station": "FR21021",
+    "Nom station": "Lisieux",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.147224,
+    "Longitude": 0.227222
+  },
+  {
+    "Code station": "FR21031",
+    "Nom station": "Alençon Météo-France",
+    "Secteur de la station": "périurbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 48.445553,
+    "Longitude": 0.110833
+  },
+  {
+    "Code station": "FR21035",
+    "Nom station": "cherbourg doumer",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.63639,
+    "Longitude": -1.626667
+  },
+  {
+    "Code station": "FR21037",
+    "Nom station": "Cherbourg port charb",
+    "Secteur de la station": "périurbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.64695,
+    "Longitude": -1.59342
+  },
+  {
+    "Code station": "FR21040",
+    "Nom station": "Saint-Lô Eglise",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.11639,
+    "Longitude": -1.084722
+  },
+  {
+    "Code station": "FR21050",
+    "Nom station": "La Coulonche MERA",
+    "Secteur de la station": "rurale nationale",
+    "Région": "NORMANDIE",
+    "Latitude": 48.645,
+    "Longitude": -0.458333
+  },
+  {
+    "Code station": "FR21060",
+    "Nom station": "Moult proximité",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.117196,
+    "Longitude": -0.169666
+  },
+  {
+    "Code station": "FR22009",
+    "Nom station": "Ecole de Carling(9)",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.165726,
+    "Longitude": 6.716886
+  },
+  {
+    "Code station": "FR22011",
+    "Nom station": "L Hôpital - Mairie",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.158413,
+    "Longitude": 6.731664
+  },
+  {
+    "Code station": "FR22014",
+    "Nom station": "Spicheren(14)",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.19539,
+    "Longitude": 6.957444
+  },
+  {
+    "Code station": "FR22019",
+    "Nom station": "SCHOENECK (19)",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.220364,
+    "Longitude": 6.925833
+  },
+  {
+    "Code station": "FR22022",
+    "Nom station": "SARREGUEMINES",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.118343,
+    "Longitude": 7.083539
+  },
+  {
+    "Code station": "FR22054",
+    "Nom station": "Station de FORBACH",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 49.18742,
+    "Longitude": 6.910867
+  },
+  {
+    "Code station": "FR23001",
+    "Nom station": "AMPERE",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.324097,
+    "Longitude": -2.081567
+  },
+  {
+    "Code station": "FR23003",
+    "Nom station": "LA MEGRETAIS",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.322706,
+    "Longitude": -2.039244
+  },
+  {
+    "Code station": "FR23004",
+    "Nom station": "PASTEUR",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.317284,
+    "Longitude": -2.073306
+  },
+  {
+    "Code station": "FR23068",
+    "Nom station": "FROSSAY",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.24747,
+    "Longitude": -1.936619
+  },
+  {
+    "Code station": "FR23069",
+    "Nom station": "SAVENAY",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.36075,
+    "Longitude": -1.95475
+  },
+  {
+    "Code station": "FR23070",
+    "Nom station": "S ETIENNE DE MONTLUC",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.28318,
+    "Longitude": -1.783164
+  },
+  {
+    "Code station": "FR23075",
+    "Nom station": "JULES VERNE",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.315727,
+    "Longitude": -2.190764
+  },
+  {
+    "Code station": "FR23078",
+    "Nom station": "SAINT EXUPERY",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.054443,
+    "Longitude": -0.886111
+  },
+  {
+    "Code station": "FR23107",
+    "Nom station": "LA CHAUVINIERE",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.252777,
+    "Longitude": -1.573333
+  },
+  {
+    "Code station": "FR23110",
+    "Nom station": "LEON BLUM",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.26412,
+    "Longitude": -2.249858
+  },
+  {
+    "Code station": "FR23120",
+    "Nom station": "BEAUX ARTS",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.468513,
+    "Longitude": -0.556053
+  },
+  {
+    "Code station": "FR23123",
+    "Nom station": "MAZAGRAN",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 48.06943,
+    "Longitude": -0.767692
+  },
+  {
+    "Code station": "FR23124",
+    "Nom station": "LA TARDIERE",
+    "Secteur de la station": "rurale nationale",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 46.656685,
+    "Longitude": -0.743681
+  },
+  {
+    "Code station": "FR23140",
+    "Nom station": "VICTOR HUGO",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.204356,
+    "Longitude": -1.552914
+  },
+  {
+    "Code station": "FR23149",
+    "Nom station": "CUTULLIC2",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.286114,
+    "Longitude": -2.032289
+  },
+  {
+    "Code station": "FR23150",
+    "Nom station": "APPENTIS",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.44739,
+    "Longitude": -0.550067
+  },
+  {
+    "Code station": "FR23152",
+    "Nom station": "DELACROIX",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 46.6607,
+    "Longitude": -1.436831
+  },
+  {
+    "Code station": "FR23153",
+    "Nom station": "BONNE FONTAINE",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.331524,
+    "Longitude": -2.151625
+  },
+  {
+    "Code station": "FR23157",
+    "Nom station": "EPINETTES",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.146088,
+    "Longitude": -1.690269
+  },
+  {
+    "Code station": "FR23163",
+    "Nom station": "Fillé",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.92192,
+    "Longitude": 0.151825
+  },
+  {
+    "Code station": "FR23174",
+    "Nom station": "GUEDOU",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.98892,
+    "Longitude": 0.195983
+  },
+  {
+    "Code station": "FR23175",
+    "Nom station": "CLOS DES BEAUVAIS",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.430164,
+    "Longitude": -0.610064
+  },
+  {
+    "Code station": "FR23177",
+    "Nom station": "SAINT-DENIS D'ANJOU",
+    "Secteur de la station": "rurale régionale",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.78773,
+    "Longitude": -0.444044
+  },
+  {
+    "Code station": "FR23178",
+    "Nom station": "PARSCAU DU PLESSIS",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.319157,
+    "Longitude": -2.066953
+  },
+  {
+    "Code station": "FR23181",
+    "Nom station": "PARC PAYSAGER",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.273056,
+    "Longitude": -2.223056
+  },
+  {
+    "Code station": "FR23182",
+    "Nom station": "SOURCES",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.971066,
+    "Longitude": 0.221422
+  },
+  {
+    "Code station": "FR23188",
+    "Nom station": "CIM BOUTEILLERIE",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.2225,
+    "Longitude": -1.5375
+  },
+  {
+    "Code station": "FR23230",
+    "Nom station": "GASPARD",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.253056,
+    "Longitude": -2.332067
+  },
+  {
+    "Code station": "FR23238",
+    "Nom station": "LEVOYER",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.1941472,
+    "Longitude": -1.581677778
+  },
+  {
+    "Code station": "FR23239",
+    "Nom station": "LES COUETS",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.1859194,
+    "Longitude": -1.5914972222
+  },
+  {
+    "Code station": "FR23249",
+    "Nom station": "CAME",
+    "Secteur de la station": "périurbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.3210778,
+    "Longitude": -2.127322
+  },
+  {
+    "Code station": "FR23251",
+    "Nom station": "FRERES GONCOURT",
+    "Secteur de la station": "urbaine",
+    "Région": "PAYS DE LA LOIRE",
+    "Latitude": 47.204122,
+    "Longitude": -1.564811
+  },
+  {
+    "Code station": "FR24007",
+    "Nom station": "ANTIBES JEAN MOULIN",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.598803,
+    "Longitude": 7.093153
+  },
+  {
+    "Code station": "FR24009",
+    "Nom station": "CANNES BROUSSAILLES",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.558389,
+    "Longitude": 7.005919
+  },
+  {
+    "Code station": "FR24011",
+    "Nom station": "NICE OUEST BOTANIQUE",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.685188,
+    "Longitude": 7.211174
+  },
+  {
+    "Code station": "FR24014",
+    "Nom station": "CIANS",
+    "Secteur de la station": "rurale régionale",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 44.094688,
+    "Longitude": 6.988978
+  },
+  {
+    "Code station": "FR24015",
+    "Nom station": "GRASSE CLAVECIN",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.657767,
+    "Longitude": 6.920878
+  },
+  {
+    "Code station": "FR24018",
+    "Nom station": "MANOSQUE",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.835784,
+    "Longitude": 5.786131
+  },
+  {
+    "Code station": "FR24021",
+    "Nom station": "PEILLON",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.786583,
+    "Longitude": 7.373283
+  },
+  {
+    "Code station": "FR24023",
+    "Nom station": "CONTES 2",
+    "Secteur de la station": "périurbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.788748,
+    "Longitude": 7.332382
+  },
+  {
+    "Code station": "FR24033",
+    "Nom station": "GAP COMMANDERIE",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 44.555193,
+    "Longitude": 6.073015
+  },
+  {
+    "Code station": "FR24035",
+    "Nom station": "NICE PROMENADE",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.689291,
+    "Longitude": 7.242074
+  },
+  {
+    "Code station": "FR24036",
+    "Nom station": "NICE ARSON",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.702075,
+    "Longitude": 7.286256
+  },
+  {
+    "Code station": "FR24038",
+    "Nom station": "GAP JEAN JAURES",
+    "Secteur de la station": "urbaine",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 44.548647,
+    "Longitude": 6.067237
+  },
+  {
+    "Code station": "FR24039",
+    "Nom station": "Obs Haute-Provence",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.933476,
+    "Longitude": 5.711809
+  },
+  {
+    "Code station": "FR24040",
+    "Nom station": "Cheiron",
+    "Secteur de la station": "rurale régionale",
+    "Région": "PROVENCE-ALPES-COTE D'AZUR",
+    "Latitude": 43.791911,
+    "Longitude": 7.048276
+  },
+  {
+    "Code station": "FR25035",
+    "Nom station": "Gd Couronne Mairie",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.358215,
+    "Longitude": 1.007853
+  },
+  {
+    "Code station": "FR25036",
+    "Nom station": "Espace du Palais",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.442358,
+    "Longitude": 1.093789
+  },
+  {
+    "Code station": "FR25039",
+    "Nom station": "Evreux Centre",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.02134,
+    "Longitude": 1.148319
+  },
+  {
+    "Code station": "FR25040",
+    "Nom station": "Mesnil Esnard",
+    "Secteur de la station": "périurbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.40619,
+    "Longitude": 1.15515
+  },
+  {
+    "Code station": "FR25043",
+    "Nom station": "Centre Hospitalier",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.4005,
+    "Longitude": 1.099042
+  },
+  {
+    "Code station": "FR25045",
+    "Nom station": "Phare d Ailly",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NORMANDIE",
+    "Latitude": 49.916363,
+    "Longitude": 0.957178
+  },
+  {
+    "Code station": "FR25049",
+    "Nom station": "Base loisirs Poses",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NORMANDIE",
+    "Latitude": 49.30487,
+    "Longitude": 1.214367
+  },
+  {
+    "Code station": "FR25050",
+    "Nom station": "Bures-en-bray",
+    "Secteur de la station": "rurale régionale",
+    "Région": "NORMANDIE",
+    "Latitude": 49.78122,
+    "Longitude": 1.345083
+  },
+  {
+    "Code station": "FR25051",
+    "Nom station": "Dieppe prox-auto",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.918007,
+    "Longitude": 1.073972
+  },
+  {
+    "Code station": "FR25053",
+    "Nom station": "Rouen Proxi Quai de Paris",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.436699,
+    "Longitude": 1.098838
+  },
+  {
+    "Code station": "FR25054",
+    "Nom station": "Petit-Quevilly Sud 3",
+    "Secteur de la station": "urbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.4341639,
+    "Longitude": 1.067052778
+  },
+  {
+    "Code station": "FR25055",
+    "Nom station": "Dieppe Golf",
+    "Secteur de la station": "périurbaine",
+    "Région": "NORMANDIE",
+    "Latitude": 49.920492,
+    "Longitude": 1.047892
+  },
+  {
+    "Code station": "FR25501",
+    "Nom station": "Saint-Saens",
+    "Secteur de la station": "rurale régionale",
+    "Région": "NORMANDIE",
+    "Latitude": 49.6713,
+    "Longitude": 1.2843
+  },
+  {
+    "Code station": "FR26005",
+    "Nom station": "Dijon Péjoces",
+    "Secteur de la station": "périurbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.307368,
+    "Longitude": 5.065881
+  },
+  {
+    "Code station": "FR26010",
+    "Nom station": "Daix",
+    "Secteur de la station": "périurbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.3456,
+    "Longitude": 5.002377
+  },
+  {
+    "Code station": "FR26012",
+    "Nom station": "Morvan",
+    "Secteur de la station": "rurale nationale",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.274762,
+    "Longitude": 4.099476
+  },
+  {
+    "Code station": "FR26014",
+    "Nom station": "Dijon Trémouille",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.325744,
+    "Longitude": 5.041056
+  },
+  {
+    "Code station": "FR26016",
+    "Nom station": "Sens",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 48.200436,
+    "Longitude": 3.2773
+  },
+  {
+    "Code station": "FR26017",
+    "Nom station": "Nevers",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 46.996828,
+    "Longitude": 3.171092
+  },
+  {
+    "Code station": "FR26019",
+    "Nom station": "Auxerre",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.800575,
+    "Longitude": 3.576189
+  },
+  {
+    "Code station": "FR26035",
+    "Nom station": "Nuits-Saint-Georges",
+    "Secteur de la station": "périurbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.137231,
+    "Longitude": 4.950573
+  },
+  {
+    "Code station": "FR26043",
+    "Nom station": "Dijon-Transvaal",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.315459,
+    "Longitude": 5.040202
+  },
+  {
+    "Code station": "FR26114",
+    "Nom station": "Le Gratteris",
+    "Secteur de la station": "périurbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.182173,
+    "Longitude": 6.139338
+  },
+  {
+    "Code station": "FR27002",
+    "Nom station": "ROUSSILLON",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.36782,
+    "Longitude": 4.805147
+  },
+  {
+    "Code station": "FR27003",
+    "Nom station": "ROCHES DE CONDRIEU",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.454517,
+    "Longitude": 4.766528
+  },
+  {
+    "Code station": "FR27005",
+    "Nom station": "Sablons",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.321845,
+    "Longitude": 4.770702
+  },
+  {
+    "Code station": "FR27007",
+    "Nom station": "Bourgoin-Jallieu",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.60822,
+    "Longitude": 5.270872
+  },
+  {
+    "Code station": "FR27010",
+    "Nom station": "Plateau de Bonnevaux",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.4609,
+    "Longitude": 5.181081
+  },
+  {
+    "Code station": "FR27011",
+    "Nom station": "A7 Salaise Ouest",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.344078,
+    "Longitude": 4.807481
+  },
+  {
+    "Code station": "FR28010",
+    "Nom station": "Harnes Serres",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.44914,
+    "Longitude": 2.9
+  },
+  {
+    "Code station": "FR28022",
+    "Nom station": "St-Laurent-Blangy",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.30886,
+    "Longitude": 2.807369
+  },
+  {
+    "Code station": "FR28028",
+    "Nom station": "Bethune Stade",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.535385,
+    "Longitude": 2.635692
+  },
+  {
+    "Code station": "FR28033",
+    "Nom station": "Noeux-les-Mines",
+    "Secteur de la station": "périurbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.48972,
+    "Longitude": 2.66642
+  },
+  {
+    "Code station": "FR28034",
+    "Nom station": "ISBERGUES",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.6257583,
+    "Longitude": 2.4732277778
+  },
+  {
+    "Code station": "FR28115",
+    "Nom station": "Lens Varsovie",
+    "Secteur de la station": "urbaine",
+    "Région": "HAUTS-DE-FRANCE",
+    "Latitude": 50.428604,
+    "Longitude": 2.836111
+  },
+  {
+    "Code station": "FR29423",
+    "Nom station": "ROANNE",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 46.04111,
+    "Longitude": 4.074656
+  },
+  {
+    "Code station": "FR29424",
+    "Nom station": "SAINT ETIENNE SUD",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.42009,
+    "Longitude": 4.395422
+  },
+  {
+    "Code station": "FR29426",
+    "Nom station": "SAINT-CHAMOND",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.475327,
+    "Longitude": 4.515003
+  },
+  {
+    "Code station": "FR29429",
+    "Nom station": "RIVE DE GIER",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.533424,
+    "Longitude": 4.623939
+  },
+  {
+    "Code station": "FR29439",
+    "Nom station": "LA TALAUDIERE",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.481777,
+    "Longitude": 4.429667
+  },
+  {
+    "Code station": "FR29441",
+    "Nom station": "ST ETIENNE BD URBAIN ",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.4479806,
+    "Longitude": 4.388763889
+  },
+  {
+    "Code station": "FR30016",
+    "Nom station": "Hotel Districal",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.685856,
+    "Longitude": 6.175111
+  },
+  {
+    "Code station": "FR30018",
+    "Nom station": "Remiremont",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.024605,
+    "Longitude": 6.585836
+  },
+  {
+    "Code station": "FR30019",
+    "Nom station": "Epinal",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.17278,
+    "Longitude": 6.452811
+  },
+  {
+    "Code station": "FR30020",
+    "Nom station": "Bar Le Duc",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.77586,
+    "Longitude": 5.162789
+  },
+  {
+    "Code station": "FR30021",
+    "Nom station": "Fléville",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.621502,
+    "Longitude": 6.194922
+  },
+  {
+    "Code station": "FR30026",
+    "Nom station": "Luneville",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.584824,
+    "Longitude": 6.4839
+  },
+  {
+    "Code station": "FR30027",
+    "Nom station": "Frolois",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.565445,
+    "Longitude": 6.129578
+  },
+  {
+    "Code station": "FR30028",
+    "Nom station": "Schlucht",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "GRAND EST",
+    "Latitude": 48.051117,
+    "Longitude": 7.011114
+  },
+  {
+    "Code station": "FR30029",
+    "Nom station": "Vittel",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.19361,
+    "Longitude": 5.937222
+  },
+  {
+    "Code station": "FR30030",
+    "Nom station": "Neuves-Maisons",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.614914,
+    "Longitude": 6.107672
+  },
+  {
+    "Code station": "FR30032",
+    "Nom station": "Heming",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "GRAND EST",
+    "Latitude": 48.694725,
+    "Longitude": 6.965275
+  },
+  {
+    "Code station": "FR30033",
+    "Nom station": "Jonville en Woevre",
+    "Secteur de la station": "rurale régionale",
+    "Région": "GRAND EST",
+    "Latitude": 49.06583,
+    "Longitude": 5.785556
+  },
+  {
+    "Code station": "FR30034",
+    "Nom station": "Nancy-Charles III",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.68817,
+    "Longitude": 6.190431
+  },
+  {
+    "Code station": "FR30036",
+    "Nom station": "Nancy-Libération",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.69708,
+    "Longitude": 6.154194
+  },
+  {
+    "Code station": "FR30037",
+    "Nom station": "Nancy-Brabois 2",
+    "Secteur de la station": "périurbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.656944,
+    "Longitude": 6.136022
+  },
+  {
+    "Code station": "FR31001",
+    "Nom station": "GRAND PARC",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 44.86139,
+    "Longitude": -0.579444
+  },
+  {
+    "Code station": "FR31002",
+    "Nom station": "TALENCE",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 44.800556,
+    "Longitude": -0.588056
+  },
+  {
+    "Code station": "FR31003",
+    "Nom station": "BORDEAUX-BASTIDE",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 44.849724,
+    "Longitude": -0.543889
+  },
+  {
+    "Code station": "FR31006",
+    "Nom station": "MERIGNAC",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 44.84139,
+    "Longitude": -0.65
+  },
+  {
+    "Code station": "FR31007",
+    "Nom station": "BASSENS",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 44.900276,
+    "Longitude": -0.514722
+  },
+  {
+    "Code station": "FR31008",
+    "Nom station": "LE TEMPLE",
+    "Secteur de la station": "rurale régionale",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 44.865555,
+    "Longitude": -0.939444
+  },
+  {
+    "Code station": "FR31010",
+    "Nom station": "AMBES",
+    "Secteur de la station": "périurbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.012223,
+    "Longitude": -0.528333
+  },
+  {
+    "Code station": "FR31013",
+    "Nom station": "BILLERE",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.310833,
+    "Longitude": -0.391111
+  },
+  {
+    "Code station": "FR31016",
+    "Nom station": "SAINT-CROUTS",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.47972,
+    "Longitude": -1.488056
+  },
+  {
+    "Code station": "FR31017",
+    "Nom station": "ANGLET",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.494031,
+    "Longitude": -1.528765
+  },
+  {
+    "Code station": "FR31020",
+    "Nom station": "LACQ",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.410557,
+    "Longitude": -0.616944
+  },
+  {
+    "Code station": "FR31021",
+    "Nom station": "LABASTIDE CEZERACQ",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.376276,
+    "Longitude": -0.538192
+  },
+  {
+    "Code station": "FR31022",
+    "Nom station": "LAGOR",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.40972,
+    "Longitude": -0.671667
+  },
+  {
+    "Code station": "FR31023",
+    "Nom station": "MASLACQ",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.434166,
+    "Longitude": -0.691944
+  },
+  {
+    "Code station": "FR31024",
+    "Nom station": "MOURENX",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.376945,
+    "Longitude": -0.609444
+  },
+  {
+    "Code station": "FR31026",
+    "Nom station": "TARTAS Pelletrin",
+    "Secteur de la station": "périurbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.838333,
+    "Longitude": -0.810833
+  },
+  {
+    "Code station": "FR31033",
+    "Nom station": "PERIGUEUX",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.18972,
+    "Longitude": 0.727222
+  },
+  {
+    "Code station": "FR31036",
+    "Nom station": "DAX",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.704723,
+    "Longitude": -1.038611
+  },
+  {
+    "Code station": "FR31039",
+    "Nom station": "PAU TOURASSE",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.31109,
+    "Longitude": -0.352119
+  },
+  {
+    "Code station": "FR31040",
+    "Nom station": "MARMANDE",
+    "Secteur de la station": "périurbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 44.508656,
+    "Longitude": 0.142503
+  },
+  {
+    "Code station": "FR31041",
+    "Nom station": "MONT DE MARSAN",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.8961,
+    "Longitude": -0.491403
+  },
+  {
+    "Code station": "FR31043",
+    "Nom station": "Biarritz-hippodrome",
+    "Secteur de la station": "périurbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 43.47024,
+    "Longitude": -1.553843
+  },
+  {
+    "Code station": "FR31045",
+    "Nom station": "Bordeaux_GAUTIER",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 44.83383,
+    "Longitude": -0.59853
+  },
+  {
+    "Code station": "FR32001",
+    "Nom station": "Chalon Centre Ville",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 46.782311,
+    "Longitude": 4.847322
+  },
+  {
+    "Code station": "FR32002",
+    "Nom station": "Champforgueil",
+    "Secteur de la station": "périurbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 46.821056,
+    "Longitude": 4.835083
+  },
+  {
+    "Code station": "FR32005",
+    "Nom station": "Montceau-les-Mines 9me écluse",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 46.678785,
+    "Longitude": 4.366893
+  },
+  {
+    "Code station": "FR32006",
+    "Nom station": "Macon Paul Bert",
+    "Secteur de la station": "périurbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 46.316172,
+    "Longitude": 4.839994
+  },
+  {
+    "Code station": "FR32007",
+    "Nom station": "Le Creusot Molette",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 46.802375,
+    "Longitude": 4.417486
+  },
+  {
+    "Code station": "FR33101",
+    "Nom station": "PASTEUR",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.56472,
+    "Longitude": 5.928333
+  },
+  {
+    "Code station": "FR33102",
+    "Nom station": "CHAMBERY LE HAUT",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.59667,
+    "Longitude": 5.918611
+  },
+  {
+    "Code station": "FR33105",
+    "Nom station": "Chambéry Trafic",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.56943,
+    "Longitude": 5.932986
+  },
+  {
+    "Code station": "FR33111",
+    "Nom station": "SAINT JEAN",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.274723,
+    "Longitude": 6.349722
+  },
+  {
+    "Code station": "FR33113",
+    "Nom station": "Maurienne Trafic",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.209364,
+    "Longitude": 6.480326
+  },
+  {
+    "Code station": "FR33120",
+    "Nom station": "CHAMONIX",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.9225,
+    "Longitude": 6.87
+  },
+  {
+    "Code station": "FR33121",
+    "Nom station": "Albertville",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.675,
+    "Longitude": 6.389722
+  },
+  {
+    "Code station": "FR33122",
+    "Nom station": "La Léchère",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.53583,
+    "Longitude": 6.471111
+  },
+  {
+    "Code station": "FR33201",
+    "Nom station": "LOVERCHY",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.89528,
+    "Longitude": 6.118333
+  },
+  {
+    "Code station": "FR33202",
+    "Nom station": "NOVEL",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.916943,
+    "Longitude": 6.135556
+  },
+  {
+    "Code station": "FR33203",
+    "Nom station": "ANNECY Rocade",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.9097,
+    "Longitude": 6.11825
+  },
+  {
+    "Code station": "FR33211",
+    "Nom station": "ANNEMASSE",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 46.19583,
+    "Longitude": 6.240556
+  },
+  {
+    "Code station": "FR33212",
+    "Nom station": "GAILLARD",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 46.19369,
+    "Longitude": 6.214858
+  },
+  {
+    "Code station": "FR33220",
+    "Nom station": "PASSY",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.92361,
+    "Longitude": 6.713611
+  },
+  {
+    "Code station": "FR33232",
+    "Nom station": "BOSSONS",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.907223,
+    "Longitude": 6.845833
+  },
+  {
+    "Code station": "FR33302",
+    "Nom station": "St Germain/Rhône",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 46.072224,
+    "Longitude": 5.820833
+  },
+  {
+    "Code station": "FR33305",
+    "Nom station": "Bourg-en-Bresse",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 46.211666,
+    "Longitude": 5.226389
+  },
+  {
+    "Code station": "FR34013",
+    "Nom station": "Gambetta",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.907083,
+    "Longitude": 1.901139
+  },
+  {
+    "Code station": "FR34014",
+    "Nom station": "St Jean",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.917398,
+    "Longitude": 1.966258
+  },
+  {
+    "Code station": "FR34017",
+    "Nom station": "Marigny-les-usages",
+    "Secteur de la station": "périurbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.958972,
+    "Longitude": 2.009278
+  },
+  {
+    "Code station": "FR34024",
+    "Nom station": "Joué lès Tours",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.344139,
+    "Longitude": 0.653778
+  },
+  {
+    "Code station": "FR34025",
+    "Nom station": "La Bruyère",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.419083,
+    "Longitude": 0.682944
+  },
+  {
+    "Code station": "FR34026",
+    "Nom station": "Tours péri-urbaine",
+    "Secteur de la station": "périurbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.46925,
+    "Longitude": 0.717333
+  },
+  {
+    "Code station": "FR34028",
+    "Nom station": "Pompidou",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.394639,
+    "Longitude": 0.704861
+  },
+  {
+    "Code station": "FR34029",
+    "Nom station": "La_Source-CNRS",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.83775,
+    "Longitude": 1.944667
+  },
+  {
+    "Code station": "FR34030",
+    "Nom station": "Bourges-Baffier",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.075044,
+    "Longitude": 2.407183
+  },
+  {
+    "Code station": "FR34032",
+    "Nom station": "Leblanc",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.082778,
+    "Longitude": 2.405333
+  },
+  {
+    "Code station": "FR34038",
+    "Nom station": "Verneuil",
+    "Secteur de la station": "rurale nationale",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 46.814694,
+    "Longitude": 2.610069
+  },
+  {
+    "Code station": "FR34041",
+    "Nom station": "Fulbert",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 48.444417,
+    "Longitude": 1.510139
+  },
+  {
+    "Code station": "FR34043",
+    "Nom station": "Oysonville",
+    "Secteur de la station": "rurale régionale",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 48.391139,
+    "Longitude": 1.955611
+  },
+  {
+    "Code station": "FR34046",
+    "Nom station": "Dreux Centre",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 48.729694,
+    "Longitude": 1.358472
+  },
+  {
+    "Code station": "FR34047",
+    "Nom station": "Saint-Remy",
+    "Secteur de la station": "périurbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 48.760889,
+    "Longitude": 1.233639
+  },
+  {
+    "Code station": "FR34048",
+    "Nom station": "Chartres_trafic",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 48.449158,
+    "Longitude": 1.492469
+  },
+  {
+    "Code station": "FR34051",
+    "Nom station": "Chateauroux Sud",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 46.798278,
+    "Longitude": 1.693139
+  },
+  {
+    "Code station": "FR34054",
+    "Nom station": "Faverolles",
+    "Secteur de la station": "rurale régionale",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.170167,
+    "Longitude": 1.409694
+  },
+  {
+    "Code station": "FR34056",
+    "Nom station": "Montierchaume",
+    "Secteur de la station": "périurbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 46.864528,
+    "Longitude": 1.771944
+  },
+  {
+    "Code station": "FR34057",
+    "Nom station": "Issoudun Trafic ZR",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 46.942941,
+    "Longitude": 2.003258
+  },
+  {
+    "Code station": "FR34061",
+    "Nom station": "Blois nord",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.594256,
+    "Longitude": 1.302667
+  },
+  {
+    "Code station": "FR34063",
+    "Nom station": "Blois_trafic",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.586544,
+    "Longitude": 1.326533
+  },
+  {
+    "Code station": "FR34064",
+    "Nom station": "Montargis_trafic",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 48.006936,
+    "Longitude": 2.740111
+  },
+  {
+    "Code station": "FR34065",
+    "Nom station": "Montargis Fond",
+    "Secteur de la station": "urbaine",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 47.996994,
+    "Longitude": 2.731511
+  },
+  {
+    "Code station": "FR34108",
+    "Nom station": "Bazoches_CC",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "CENTRE-VAL DE LOIRE",
+    "Latitude": 48.166056,
+    "Longitude": 2.044028
+  },
+  {
+    "Code station": "FR35002",
+    "Nom station": "ST JUNIEN - Fontaine",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.89,
+    "Longitude": 0.9
+  },
+  {
+    "Code station": "FR35004",
+    "Nom station": "BRIVE - Dalton",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.158745,
+    "Longitude": 1.537222
+  },
+  {
+    "Code station": "FR35005",
+    "Nom station": "GUERET - Nicolas",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 46.17,
+    "Longitude": 1.87
+  },
+  {
+    "Code station": "FR35006",
+    "Nom station": "TULLE - Hugo",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.26,
+    "Longitude": 1.76
+  },
+  {
+    "Code station": "FR35007",
+    "Nom station": "PALAIS S/ V.- Garros",
+    "Secteur de la station": "périurbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.869995,
+    "Longitude": 1.31
+  },
+  {
+    "Code station": "FR35010",
+    "Nom station": "LIMOGES - Aine",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.829953,
+    "Longitude": 1.254846
+  },
+  {
+    "Code station": "FR35012",
+    "Nom station": "LA NOUAILLE - MERA",
+    "Secteur de la station": "rurale nationale",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.809998,
+    "Longitude": 2.06
+  },
+  {
+    "Code station": "FR35019",
+    "Nom station": "SAILLAT - Ipaper",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.875823,
+    "Longitude": 0.823957
+  },
+  {
+    "Code station": "FR35027",
+    "Nom station": "LIMOGES - BERLAND",
+    "Secteur de la station": "urbaine",
+    "Région": "NOUVELLE-AQUITAINE",
+    "Latitude": 45.84222,
+    "Longitude": 1.25967
+  },
+  {
+    "Code station": "FR36001",
+    "Nom station": "Valence Périurb. Sud",
+    "Secteur de la station": "périurbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 44.870243,
+    "Longitude": 4.876289
+  },
+  {
+    "Code station": "FR36002",
+    "Nom station": "Valence Urb. Centre",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 44.933514,
+    "Longitude": 4.893481
+  },
+  {
+    "Code station": "FR36007",
+    "Nom station": "Saint Bauzile CEC",
+    "Secteur de la station": "rurale régionale",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 44.675938,
+    "Longitude": 4.673586
+  },
+  {
+    "Code station": "FR36019",
+    "Nom station": "Romans-sur-Isère",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 45.0425,
+    "Longitude": 5.0443
+  },
+  {
+    "Code station": "FR36021",
+    "Nom station": "Drôme Rurale Sud-SND",
+    "Secteur de la station": "rurale nationale",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 44.569443,
+    "Longitude": 5.278972
+  },
+  {
+    "Code station": "FR36032",
+    "Nom station": "A7 Valence Est",
+    "Secteur de la station": "urbaine",
+    "Région": "AUVERGNE-RHONE-ALPES",
+    "Latitude": 44.9492,
+    "Longitude": 4.890133
+  },
+  {
+    "Code station": "FR37001",
+    "Nom station": "ST de Baie mahault",
+    "Secteur de la station": "périurbaine",
+    "Région": "GUADELOUPE",
+    "Latitude": 16.257308,
+    "Longitude": -61.591725
+  },
+  {
+    "Code station": "FR37006",
+    "Nom station": "PTP-VICTOIRE",
+    "Secteur de la station": "urbaine",
+    "Région": "GUADELOUPE",
+    "Latitude": 16.23674,
+    "Longitude": -61.534101
+  },
+  {
+    "Code station": "FR37007",
+    "Nom station": "ST Vieux Bourg ABYMES",
+    "Secteur de la station": "périurbaine",
+    "Région": "GUADELOUPE",
+    "Latitude": 16.25066,
+    "Longitude": -61.527794
+  },
+  {
+    "Code station": "FR37010",
+    "Nom station": "BT_PICHON",
+    "Secteur de la station": "urbaine",
+    "Région": "GUADELOUPE",
+    "Latitude": 15.994349,
+    "Longitude": -61.727203
+  },
+  {
+    "Code station": "FR37038",
+    "Nom station": "SXM Marigot",
+    "Secteur de la station": "urbaine",
+    "Région": "SAINT-MARTIN",
+    "Latitude": 18.070114,
+    "Longitude": -63.081481
+  },
+  {
+    "Code station": "FR37040",
+    "Nom station": "ABYMES RN1",
+    "Secteur de la station": "périurbaine",
+    "Région": "GUADELOUPE",
+    "Latitude": 16.254085,
+    "Longitude": -61.53713
+  },
+  {
+    "Code station": "FR38001",
+    "Nom station": "LYC. LISLET GEOFFROY",
+    "Secteur de la station": "urbaine",
+    "Région": "LA REUNION",
+    "Latitude": -20.889893,
+    "Longitude": 55.46884
+  },
+  {
+    "Code station": "FR38002",
+    "Nom station": "MONTGAILLARD",
+    "Secteur de la station": "périurbaine",
+    "Région": "LA REUNION",
+    "Latitude": -20.903294,
+    "Longitude": 55.468334
+  },
+  {
+    "Code station": "FR38008",
+    "Nom station": "Ecole JOINVILLE",
+    "Secteur de la station": "urbaine",
+    "Région": "LA REUNION",
+    "Latitude": -20.884575,
+    "Longitude": 55.453906
+  },
+  {
+    "Code station": "FR38009",
+    "Nom station": "Ecole La Marine",
+    "Secteur de la station": "périurbaine",
+    "Région": "LA REUNION",
+    "Latitude": -20.910585,
+    "Longitude": 55.618977
+  },
+  {
+    "Code station": "FR38011",
+    "Nom station": "Station Luther King",
+    "Secteur de la station": "urbaine",
+    "Région": "LA REUNION",
+    "Latitude": -21.334406,
+    "Longitude": 55.45906
+  },
+  {
+    "Code station": "FR38014",
+    "Nom station": "Ligne Paradis",
+    "Secteur de la station": "périurbaine",
+    "Région": "LA REUNION",
+    "Latitude": -21.312895,
+    "Longitude": 55.474194
+  },
+  {
+    "Code station": "FR38016",
+    "Nom station": "Station Bourg-Murat",
+    "Secteur de la station": "rurale régionale",
+    "Région": "LA REUNION",
+    "Latitude": -21.204815,
+    "Longitude": 55.58262
+  },
+  {
+    "Code station": "FR38017",
+    "Nom station": "Grand Coude",
+    "Secteur de la station": "rurale régionale",
+    "Région": "LA REUNION",
+    "Latitude": -21.29433,
+    "Longitude": 55.62793
+  },
+  {
+    "Code station": "FR38018",
+    "Nom station": "Centre Penitencier",
+    "Secteur de la station": "périurbaine",
+    "Région": "LA REUNION",
+    "Latitude": -20.9498,
+    "Longitude": 55.313828
+  },
+  {
+    "Code station": "FR38020",
+    "Nom station": "Plateau Caillou",
+    "Secteur de la station": "urbaine",
+    "Région": "LA REUNION",
+    "Latitude": -21.009739,
+    "Longitude": 55.272675
+  },
+  {
+    "Code station": "FR38021",
+    "Nom station": "Grand Fond",
+    "Secteur de la station": "périurbaine",
+    "Région": "LA REUNION",
+    "Latitude": -21.032139,
+    "Longitude": 55.232563
+  },
+  {
+    "Code station": "FR38023",
+    "Nom station": "BD BANKS",
+    "Secteur de la station": "urbaine",
+    "Région": "LA REUNION",
+    "Latitude": -21.331703,
+    "Longitude": 55.478949
+  },
+  {
+    "Code station": "FR38024",
+    "Nom station": "RDT SAINT-LEU",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "LA REUNION",
+    "Latitude": -21.213212,
+    "Longitude": 55.302844
+  },
+  {
+    "Code station": "FR38091",
+    "Nom station": "Terrain de Sel",
+    "Secteur de la station": "urbaine",
+    "Région": "LA REUNION",
+    "Latitude": -20.928686,
+    "Longitude": 55.332581
+  },
+  {
+    "Code station": "FR38098",
+    "Nom station": "Sarda Garriga",
+    "Secteur de la station": "urbaine",
+    "Région": "LA REUNION",
+    "Latitude": -21.277075,
+    "Longitude": 55.403065
+  },
+  {
+    "Code station": "FR39003",
+    "Nom station": "Etang Zabricot",
+    "Secteur de la station": "urbaine",
+    "Région": "MARTINIQUE",
+    "Latitude": 14.603497,
+    "Longitude": -61.041206
+  },
+  {
+    "Code station": "FR39008",
+    "Nom station": "Ville de Schoelcher",
+    "Secteur de la station": "urbaine",
+    "Région": "MARTINIQUE",
+    "Latitude": 14.616389,
+    "Longitude": -61.100792
+  },
+  {
+    "Code station": "FR39009",
+    "Nom station": "Lamentin",
+    "Secteur de la station": "urbaine",
+    "Région": "MARTINIQUE",
+    "Latitude": 14.610653,
+    "Longitude": -61.002586
+  },
+  {
+    "Code station": "FR39010",
+    "Nom station": "Concorde",
+    "Secteur de la station": "urbaine",
+    "Région": "MARTINIQUE",
+    "Latitude": 14.613844,
+    "Longitude": -61.063492
+  },
+  {
+    "Code station": "FR39011",
+    "Nom station": "Reneville",
+    "Secteur de la station": "urbaine",
+    "Région": "MARTINIQUE",
+    "Latitude": 14.602253,
+    "Longitude": -61.053642
+  },
+  {
+    "Code station": "FR39014",
+    "Nom station": "Sainte_Luce",
+    "Secteur de la station": "périurbaine",
+    "Région": "MARTINIQUE",
+    "Latitude": 14.468869,
+    "Longitude": -60.927417
+  },
+  {
+    "Code station": "FR39015",
+    "Nom station": "Hôtel de ville",
+    "Secteur de la station": "urbaine",
+    "Région": "MARTINIQUE",
+    "Latitude": 14.607444,
+    "Longitude": -61.069778
+  },
+  {
+    "Code station": "FR39016",
+    "Nom station": "Robert Bourg",
+    "Secteur de la station": "urbaine",
+    "Région": "MARTINIQUE",
+    "Latitude": 14.678025,
+    "Longitude": -60.939056
+  },
+  {
+    "Code station": "FR39017",
+    "Nom station": "Bellevue",
+    "Secteur de la station": "périurbaine",
+    "Région": "MARTINIQUE",
+    "Latitude": 14.601469,
+    "Longitude": -61.085331
+  },
+  {
+    "Code station": "FR39109",
+    "Nom station": "Office du tourisme",
+    "Secteur de la station": "urbaine",
+    "Région": "MARTINIQUE",
+    "Latitude": 14.671083,
+    "Longitude": -61.163361
+  },
+  {
+    "Code station": "FR40006",
+    "Nom station": "Brady",
+    "Secteur de la station": "urbaine",
+    "Région": "GUYANE",
+    "Latitude": 5.164248,
+    "Longitude": -52.64649
+  },
+  {
+    "Code station": "FR40007",
+    "Nom station": "Kalou",
+    "Secteur de la station": "périurbaine",
+    "Région": "GUYANE",
+    "Latitude": 4.84816,
+    "Longitude": -52.3238
+  },
+  {
+    "Code station": "FR40008",
+    "Nom station": "Caiena3",
+    "Secteur de la station": "urbaine",
+    "Région": "GUYANE",
+    "Latitude": 4.9378467,
+    "Longitude": -52.32093
+  },
+  {
+    "Code station": "FR40009",
+    "Nom station": "Bouchon",
+    "Secteur de la station": "urbaine",
+    "Région": "GUYANE",
+    "Latitude": 4.920833,
+    "Longitude": -52.321944
+  },
+  {
+    "Code station": "FR40010",
+    "Nom station": "Matiti",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "GUYANE",
+    "Latitude": 5.034602,
+    "Longitude": -52.563795
+  },
+  {
+    "Code station": "FR41001",
+    "Nom station": "AJACCIO CANETTO",
+    "Secteur de la station": "urbaine",
+    "Région": "CORSE",
+    "Latitude": 41.924694,
+    "Longitude": 8.735694
+  },
+  {
+    "Code station": "FR41002",
+    "Nom station": "BASTIA GIRAUD",
+    "Secteur de la station": "urbaine",
+    "Région": "CORSE",
+    "Latitude": 42.697917,
+    "Longitude": 9.446417
+  },
+  {
+    "Code station": "FR41003",
+    "Nom station": "AJACCIO PIATANICCIA",
+    "Secteur de la station": "périurbaine",
+    "Région": "CORSE",
+    "Latitude": 41.958028,
+    "Longitude": 8.820278
+  },
+  {
+    "Code station": "FR41004",
+    "Nom station": "BASTIA LA MARANA",
+    "Secteur de la station": "périurbaine",
+    "Région": "CORSE",
+    "Latitude": 42.535833,
+    "Longitude": 9.475972
+  },
+  {
+    "Code station": "FR41007",
+    "Nom station": "AJACCIO SPOSATA",
+    "Secteur de la station": "périurbaine",
+    "Région": "CORSE",
+    "Latitude": 41.949222,
+    "Longitude": 8.757583
+  },
+  {
+    "Code station": "FR41017",
+    "Nom station": "BASTIA MONTESORO",
+    "Secteur de la station": "périurbaine",
+    "Région": "CORSE",
+    "Latitude": 42.671333,
+    "Longitude": 9.434639
+  },
+  {
+    "Code station": "FR41024",
+    "Nom station": "VENACO",
+    "Secteur de la station": "rurale régionale",
+    "Région": "CORSE",
+    "Latitude": 42.236028,
+    "Longitude": 9.190028
+  },
+  {
+    "Code station": "FR41059",
+    "Nom station": "AJACCIO ABBATUCCI",
+    "Secteur de la station": "urbaine",
+    "Région": "CORSE",
+    "Latitude": 41.92575,
+    "Longitude": 8.738278
+  },
+  {
+    "Code station": "FR41060",
+    "Nom station": "BASTIA FANGO",
+    "Secteur de la station": "urbaine",
+    "Région": "CORSE",
+    "Latitude": 42.702833,
+    "Longitude": 9.446389
+  },
+  {
+    "Code station": "FR42010",
+    "Nom station": "Strasbourg Neudorf Ecoquartier Danube",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.572808,
+    "Longitude": 7.767833
+  },
+  {
+    "Code station": "FR42011",
+    "Nom station": "Haguenau-Place marché aux bestiaux",
+    "Secteur de la station": "urbaine",
+    "Région": "GRAND EST",
+    "Latitude": 48.818352,
+    "Longitude": 7.786409
+  },
+  {
+    "Code station": "FR42012",
+    "Nom station": "Héming Rue des Ecoles",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "GRAND EST",
+    "Latitude": 48.694513,
+    "Longitude": 6.965651
+  },
+  {
+    "Code station": "FR43099",
+    "Nom station": "Kawéni Nord",
+    "Secteur de la station": "périurbaine",
+    "Région": "MAYOTTE",
+    "Latitude": -12.761174,
+    "Longitude": 45.226197
+  },
+  {
+    "Code station": "FR50060",
+    "Nom station": "Montauban",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 44.01285657,
+    "Longitude": 1.37530522
+  },
+  {
+    "Code station": "FR50224",
+    "Nom station": "Perpignan bd Pyrénées",
+    "Secteur de la station": "urbaine",
+    "Région": "OCCITANIE",
+    "Latitude": 42.69587,
+    "Longitude": 2.888483
+  },
+  {
+    "Code station": "FR82001",
+    "Nom station": "Besancon Mégevand",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.235973,
+    "Longitude": 6.023611
+  },
+  {
+    "Code station": "FR82005",
+    "Nom station": "Montfaucon",
+    "Secteur de la station": "périurbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.23461,
+    "Longitude": 6.076472
+  },
+  {
+    "Code station": "FR82006",
+    "Nom station": "Besancon Prevoyance",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.2474,
+    "Longitude": 6.015419
+  },
+  {
+    "Code station": "FR82010",
+    "Nom station": "Montbéliard centre",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.510307,
+    "Longitude": 6.794
+  },
+  {
+    "Code station": "FR82012",
+    "Nom station": "Dambenois Citoyen",
+    "Secteur de la station": "périurbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.538193,
+    "Longitude": 6.868361
+  },
+  {
+    "Code station": "FR82020",
+    "Nom station": "Belfort Octroi",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.640667,
+    "Longitude": 6.859278
+  },
+  {
+    "Code station": "FR82030",
+    "Nom station": "Montandon Baresans",
+    "Secteur de la station": "rurale nationale",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.29464,
+    "Longitude": 6.825861
+  },
+  {
+    "Code station": "FR82040",
+    "Nom station": "Dole centre",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.09672,
+    "Longitude": 5.496389
+  },
+  {
+    "Code station": "FR82041",
+    "Nom station": "Tavaux",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.04261,
+    "Longitude": 5.400897
+  },
+  {
+    "Code station": "FR82042",
+    "Nom station": "Damparis",
+    "Secteur de la station": "rurale près des villes",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.06564,
+    "Longitude": 5.415028
+  },
+  {
+    "Code station": "FR82043",
+    "Nom station": "Chatenois",
+    "Secteur de la station": "périurbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.14725,
+    "Longitude": 5.556117
+  },
+  {
+    "Code station": "FR82050",
+    "Nom station": "Lons-le-Saunier CV",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 46.671307,
+    "Longitude": 5.556806
+  },
+  {
+    "Code station": "FR82060",
+    "Nom station": "Vesoul Pres Caillet",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.62,
+    "Longitude": 6.157611
+  },
+  {
+    "Code station": "FR82070",
+    "Nom station": "Baume-les-Dames",
+    "Secteur de la station": "urbaine",
+    "Région": "BOURGOGNE-FRANCHE-COMTE",
+    "Latitude": 47.351288,
+    "Longitude": 6.359722
+  }
+]

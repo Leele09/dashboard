@@ -30,14 +30,6 @@ const routes = [
     icon: <MdHome className="h-6 w-6" />,
     component: <MainDashboard />,
   },
-  //{
-  //  name: "NFT Marketplace",
-  //  layout: "/admin",
-  //  path: "nft-marketplace",
-  //  icon: <MdOutlineShoppingCart className="h-6 w-6" />,
-  //  component: <NFTMarketplace />,
-  //  secondary: true,
-  //},
   {
     name: "Tableau des données",
     layout: "/admin",
@@ -59,13 +51,6 @@ const routes = [
     path: "Cart",
     component: <Francemap />,
   },
-  //{
-  //  name: "Sign In",
-  //  layout: "/auth",
-  //  path: "sign-in",
-  //  icon: <MdLock className="h-6 w-6" />,
-  //  component: <SignIn />,
-  //},
   {
     name: "RTL Admin",
     layout: "/rtl",

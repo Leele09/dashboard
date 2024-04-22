@@ -48,22 +48,6 @@ const Navbar = (props) => {
           </p>
         </div>
 
-<<<<<<< Updated upstream
-
-        <div
-            className="relative mt-[3px] flex h-[61px] w-3/4 items-center rounded-full bg-white px-2 py-2 shadow-xl shadow-shadow-500 dark:!bg-navy-800 dark:shadow-none">
-          <div
-              className="flex h-full items-center rounded-full bg-lightPrimary text-navy-700 dark:bg-navy-900 dark:text-white ">
-            <p className="pl-3 pr-2 text-xl">
-              <FiSearch className="h-4 w-4 text-gray-400 dark:text-white"/>
-            </p>
-            <input
-                type="text"
-                placeholder="Rechercher..."
-                className="block h-full w-full rounded-full bg-lightPrimary text-sm font-medium text-navy-700 outline-none placeholder:!text-gray-400 dark:bg-navy-900 dark:text-white dark:placeholder:!text-white"
-            />
-          </div>
-=======
         <div
             className="relative mt-[3px] flex flex-grow items-center justify-around gap-2 rounded-full bg-white px-2 py-2 shadow-xl shadow-shadow-500 dark:!bg-navy-800 dark:shadow-none md:flex-grow-0 md:gap-1">
 
@@ -142,26 +126,17 @@ const Navbar = (props) => {
             </ul>
           </div>
 
->>>>>>> Stashed changes
           <span
               className="flex cursor-pointer text-xl text-gray-600 dark:text-white xl:hidden"
               onClick={onOpenSidenav}
           >
           <FiAlignJustify className="h-5 w-5"/>
-<<<<<<< Updated upstream
-        </span>
-=======
           </span>
->>>>>>> Stashed changes
           {/* start Notification */}
           <Dropdown
               button={
                 <p className="cursor-pointer">
-<<<<<<< Updated upstream
-                  <IoMdNotificationsOutline className="h-4 w-4 ml-2 text-gray-600 dark:text-white"/>
-=======
                   <IoMdNotificationsOutline className="h-4 w-4 text-gray-600 dark:text-white"/>
->>>>>>> Stashed changes
                 </p>
               }
               animation="origin-[65%_0%] md:origin-top-right transition-all duration-300 ease-in-out"
@@ -211,11 +186,7 @@ const Navbar = (props) => {
               classNames={"py-2 top-4 -left-[230px] md:-left-[440px] w-max"}
           />
           <div
-<<<<<<< Updated upstream
-              className="cursor-pointer text-gray-600"
-=======
               className="ml-1 mr-1 cursor-pointer text-gray-600"
->>>>>>> Stashed changes
               onClick={() => {
                 if (darkmode) {
                   document.body.classList.remove("dark");

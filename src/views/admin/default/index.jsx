@@ -21,62 +21,11 @@ const Dashboard = () => {
       <div>
         {/* Card widget */}
 
-<<<<<<< Updated upstream
-      <div className="mt-3 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-6">
-        <Widget
-          icon={<MdBarChart className="h-7 w-7" />}
-          title={"Nombre de station"}
-          subtitle={"140"}
-        />
-        <Widget
-          icon={<IoDocuments className="h-6 w-6" />}
-          title={"Nombre de polluant"}
-          subtitle={"44721"}
-        />
-        <Widget
-          icon={<MdBarChart className="h-7 w-7" />}
-          title={"Météo"}
-          subtitle={"22°C"}
-        />
-        <Widget
-          icon={<MdDashboard className="h-6 w-6" />}
-          title={"Vent"}
-          subtitle={"$1,000"}
-        />
-        <Widget
-          icon={<MdBarChart className="h-7 w-7" />}
-          title={"New Tasks"}
-          subtitle={"145"}
-        />
-        <Widget
-          icon={<IoMdHome className="h-6 w-6" />}
-          title={"Total Projects"}
-          subtitle={"$2433"}
-        />
-      </div>
-
-      {/* Charts */}
-
-      <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2">
-        <TotalSpent />
-        <WeeklyRevenue />
-      </div>
-
-      {/* Tables & Charts */}
-
-      <div className="mt-5 grid grid-cols-1 gap-5 xl:grid-cols-2">
-        {/* Check Table */}
-        <div>
-          <CheckTable
-            columnsData={columnsDataCheck}
-            tableData={tableDataCheck}
-=======
         <div className="mt-3 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-6">
           <Widget
               icon={<MdBarChart className="h-7 w-7"/>}
               title={"Earnings"}
               subtitle={"$340.5"}
->>>>>>> Stashed changes
           />
           <Widget
               icon={<IoDocuments className="h-6 w-6"/>}

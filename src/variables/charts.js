@@ -1,6 +1,3 @@
-import processData from '../data/processData'
-import jsonData from '../data/data.json';
-
 export const barChartDataDailyTraffic = [
   {
     name: "Daily Traffic",
@@ -106,8 +103,8 @@ export const barChartOptionsDailyTraffic = {
 };
 
 export const pieChartOptions = {
-  labels: ["N0", "N02", "03","NOX as NO2","PM10","PM2.5"],
-  colors: ["#4318FF", "#6AD2FF", "#EFF4FB", "#FF6347", "#FFD700", "#32CD32"],
+  labels: ["Your files", "System", "Empty"],
+  colors: ["#4318FF", "#6AD2FF", "#EFF4FB"],
   chart: {
     width: "50px",
   },
@@ -136,7 +133,7 @@ export const pieChartOptions = {
     },
   },
   fill: {
-    colors: ["#4318FF", "#6AD2FF", "#EFF4FB", "#FF6347", "#FFD700", "#32CD32"],
+    colors: ["#4318FF", "#6AD2FF", "#EFF4FB"],
   },
   tooltip: {
     enabled: true,
@@ -149,7 +146,7 @@ export const pieChartOptions = {
   },
 };
 
-export const pieChartData = processData(jsonData);
+export const pieChartData = [63, 25, 12];
 
 export const barChartDataWeeklyRevenue = [
   {
@@ -267,18 +264,10 @@ export const lineChartDataTotalSpent = [
   },
   {
     name: "Profit",
-    data: [30, 40, 24, 46, 20, 46], 
+    data: [30, 40, 24, 46, 20, 46],
     color: "#6AD2FF",
   },
-  {
-    name: "Test",
-    data: [60, 20, 12, 32, 89, 10],
-    color: "#008000"
-  },
-  
 ];
-
-
 
 export const lineChartOptionsTotalSpent = {
   legend: {
@@ -340,7 +329,3 @@ export const lineChartOptionsTotalSpent = {
     show: false,
   },
 };
-
-export { processData };
-
-

@@ -1,5 +1,5 @@
 
-# 🌍 Nom du Projet
+# 🌍 SAE 4.01 - UPEC - Dashboard
 
 ## 📖 Description
 Ce projet est un tableau de bord 📊 développé avec React et Tailwind CSS, destiné à analyser et présenter des données sur les polluants 🏭, la météo ☁️, et les cartes des vents 🌬️. Il propose un système d'information graphique pour une visualisation claire et intuitive des données environnementales.

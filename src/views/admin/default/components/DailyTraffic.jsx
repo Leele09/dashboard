@@ -1,4 +1,4 @@
-import BarChart from "components/charts/BarChart2";
+import BarChart from "components/charts/BarChart";
 import { barChartDataDailyTraffic } from "variables/charts";
 import { barChartOptionsDailyTraffic } from "variables/charts";
 import { MdArrowDropUp } from "react-icons/md";
@@ -9,12 +9,12 @@ const DailyTraffic = () => {
       <div className="flex flex-row justify-between">
         <div className="ml-1 pt-2">
           <p className="text-sm font-medium leading-4 text-gray-600">
-            Graphique avec 
+            Daily Traffic
           </p>
           <p className="text-[34px] font-bold text-navy-700 dark:text-white">
-            280{" "}
+            2.579{" "}
             <span className="text-sm font-medium leading-6 text-gray-600">
-              stations en marche
+              Visitors
             </span>
           </p>
         </div>

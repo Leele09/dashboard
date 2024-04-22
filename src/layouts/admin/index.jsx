@@ -21,7 +21,7 @@ export default function Admin(props) {
   }, [location.pathname]);
 
   const getActiveRoute = (routes) => {
-    let activeRoute = " Page d'accueil";
+    let activeRoute = "Main Dashboard";
     for (let i = 0; i < routes.length; i++) {
       if (
         window.location.href.indexOf(

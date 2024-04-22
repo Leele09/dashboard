@@ -1,7 +1,3 @@
-import jsonData from '../data/data.json'; // 
-
-
-
 export const barChartDataDailyTraffic = [
   {
     name: "Daily Traffic",
@@ -107,8 +103,8 @@ export const barChartOptionsDailyTraffic = {
 };
 
 export const pieChartOptions = {
-  labels: ["N0", "N02", "03","NOX as NO2","PM10","PM2.5"],
-  colors: ["#4318FF", "#6AD2FF", "#EFF4FB", "#FF6347", "#FFD700", "#32CD32"],
+  labels: ["Your files", "System", "Empty"],
+  colors: ["#4318FF", "#6AD2FF", "#EFF4FB"],
   chart: {
     width: "50px",
   },
@@ -137,7 +133,7 @@ export const pieChartOptions = {
     },
   },
   fill: {
-    colors: ["#4318FF", "#6AD2FF", "#EFF4FB", "#FF6347", "#FFD700", "#32CD32"],
+    colors: ["#4318FF", "#6AD2FF", "#EFF4FB"],
   },
   tooltip: {
     enabled: true,
@@ -150,39 +146,7 @@ export const pieChartOptions = {
   },
 };
 
-const processData = (data) => {
-  const pollutants = {};
-  Object.values(data).forEach(sites => {
-    Object.values(sites).forEach(pollutantsData => {
-      Object.entries(pollutantsData).forEach(([pollutant, values]) => {
-        values.forEach(record => {
-          const value = record[1];
-          if (value && !isNaN(value)) {
-            if (!pollutants[pollutant]) {
-              pollutants[pollutant] = { sum: 0, count: 0 };
-            }
-            pollutants[pollutant].sum += parseFloat(value);
-            pollutants[pollutant].count++; 
-          }
-        });
-      });
-    });
-  });
-
-  // Calculate the average for each pollutant
-  const averages = Object.fromEntries(
-    Object.entries(pollutants).map(([pollutant, { sum, count }]) => [
-      pollutant,
-      count > 0 ? sum / count : null,
-    ])
-  );
-  console.log(pollutants)
-  return averages;
-};
-
-// Assuming jsonData is imported correctly and in the right format
-export const pieChartData = processData(jsonData);
-
+export const pieChartData = [63, 25, 12];
 
 export const barChartDataWeeklyRevenue = [
   {
@@ -292,32 +256,18 @@ export const barChartOptionsWeeklyRevenue = {
   },
 };
 
-
-// Define processData2 function
-export const processData2 = (jsonData, stations) => {
-  const processedData = stations.map(station => {
-    const stationData = jsonData[station] || {};
-    return {
-      name: station,
-      data: Object.entries(stationData).flatMap(([pollutant, records]) => {
-        const validRecords = records.filter(record => !isNaN(parseFloat(record[1])));
-        const average = validRecords.reduce((sum, record) => sum + parseFloat(record[1]), 0) / validRecords.length;
-        return average.toFixed(1); // Round to the nearest tenth
-      }),
-      color: station === stations[0] ? "#4318FF" : "#6AD2FF" // Example colors
-    };
-  });
-  return processedData;
-};
-
-// Use processData2 to get data from jsonData and assign it to lineChartDataTotalSpent
-// jsonData should be the actual JSON data you have
-// stations should be an array of station identifiers, e.g. ['Station1', 'Station2']
-const stations = ['Station1', 'Station2']; // Replace with your actual station IDs
-
-export const lineChartDataTotalSpent = processData2(jsonData, stations);
-
-
+export const lineChartDataTotalSpent = [
+  {
+    name: "Revenue",
+    data: [50, 64, 48, 66, 49, 68],
+    color: "#4318FF",
+  },
+  {
+    name: "Profit",
+    data: [30, 40, 24, 46, 20, 46],
+    color: "#6AD2FF",
+  },
+];
 
 export const lineChartOptionsTotalSpent = {
   legend: {
@@ -379,7 +329,3 @@ export const lineChartOptionsTotalSpent = {
     show: false,
   },
 };
-
-export { processData };
-
-

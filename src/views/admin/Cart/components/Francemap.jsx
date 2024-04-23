@@ -1,10 +1,9 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, { useRef, useEffect, useState } from "react";
 import L from 'leaflet';
 import "leaflet/dist/leaflet.css"; // Toujours il faut mettre à jour
 import axios from 'axios';
 import Card from "components/card";
 import "./Card.css";
-import "https://api.windy.com/assets/map-forecast/libBoot.js";
 import stationsGeographiques from './stations_geographiques.json';
 import 'leaflet.markercluster/dist/leaflet.markercluster';
 import 'leaflet/dist/leaflet.css';
@@ -181,7 +180,8 @@ const Francemap = () => {
                 if (coord) {
                     addCityMarker(coord.lat, coord.lon, name, descriptionMeteo[weather[0].description], main.temp, timezone);
                 }
-                document.body.style.backgroundImage = backgroundImages[weather[0].main];
+                const background = backgroundImages[weather[0].main];
+                document.body.style.backgroundImage = background;
             })
             .catch(error => {
                 console.error('Error fetching weather data:', error);

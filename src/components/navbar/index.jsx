@@ -66,7 +66,7 @@ const Navbar = (props) => {
                 aria-labelledby="multiLevelDropdownButton">
               {Object.entries(jsonData).map(([key, values]) => (
                   <li key={key}>
-                    <button key={key} id={key} data-dropdown-toggle={`doubleDropdown${key}`}
+                    <button id={`zag-${key}`} data-dropdown-toggle={`doubleDropdown-${key}`}
                             data-dropdown-placement="right-start" type="button"
                             className="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                       {key}
@@ -77,17 +77,17 @@ const Navbar = (props) => {
                               d="m1 9 4-4-4-4"/>
                       </svg>
                     </button>
-                    <div id={`doubleDropdown${key}`}
+                    <div id={`doubleDropdown-${key}`}
                          className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                       <ul className="h-48 py-2 overflow-y-auto text-gray-700 dark:text-gray-200"
                           aria-labelledby="doubleDropdownButton">
                         {values.map((value) => (
                             <li>
-                              <input defaultChecked id={`site-checkbox${value}`} type="checkbox" value={value}
+                              <input defaultChecked id={`site-checkbox-${value}`} type="checkbox" value={value}
                                      className="ml-2 w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
                                      onClick={dataBySite}
                               />
-                              <label htmlFor={`site-checkbox${value}`}
+                              <label htmlFor={`site-checkbox-${value}`}
                                      className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">{value}
                               </label>
                             </li>
@@ -108,17 +108,18 @@ const Navbar = (props) => {
                   d="m1 1 4 4 4-4"/>
           </svg>
           </button>
+
           <div id="dropdownDefaultCheckbox"
                className="z-10 hidden w-48 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600">
             <ul className="h-48 py-2 overflow-y-auto text-gray-700 dark:text-gray-200"
                 aria-labelledby="dropdownCheckboxButton">
               {polluants.map((polluant) => (
                   <li>
-                    <input defaultChecked id={`polluant-checkbox${polluant}`} type="checkbox" value={polluant}
+                    <input defaultChecked id={`polluant-checkbox-${polluant}`} type="checkbox" value={polluant}
                            className="ml-2 w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500"
                            onClick={dataByPolluant}
                     />
-                    <label htmlFor={`polluant-checkbox${polluant}`}
+                    <label htmlFor={`polluant-checkbox-${polluant}`}
                            className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">{polluant}
                     </label>
                   </li>

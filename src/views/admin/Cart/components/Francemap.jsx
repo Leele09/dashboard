@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, {useEffect, useRef, useState} from "react";
 import L from 'leaflet';
 import "leaflet/dist/leaflet.css"; // Toujours il faut mettre à jour
 import axios from 'axios';
@@ -181,8 +181,7 @@ const Francemap = () => {
                 if (coord) {
                     addCityMarker(coord.lat, coord.lon, name, descriptionMeteo[weather[0].description], main.temp, timezone);
                 }
-                const background = backgroundImages[weather[0].main];
-                document.body.style.backgroundImage = background;
+                document.body.style.backgroundImage = backgroundImages[weather[0].main];
             })
             .catch(error => {
                 console.error('Error fetching weather data:', error);

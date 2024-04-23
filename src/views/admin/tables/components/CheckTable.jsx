@@ -1,11 +1,7 @@
 import React, { useMemo, useState, useEffect } from "react";
 import CardMenu from "../../../../components/card/CardMenu";
-import Checkbox from "../../../../components/checkbox/index.jsx";
 import Card from "../../../../components/card/index.jsx";
 import {
-  useGlobalFilter,
-  usePagination,
-  useSortBy,
   useTable,
 } from "react-table";
 import jsonData from '../../../../data/data.json'; // Vérifiez le chemin d'accès

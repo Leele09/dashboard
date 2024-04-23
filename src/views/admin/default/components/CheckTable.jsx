@@ -31,7 +31,7 @@ const CheckTable = () => {
         // Parcourir chaque polluant pour la station
         Object.entries(pollutantsObj).forEach(([pollutant, readings]) => {
           readings.forEach(reading => {
-            const [date, value, quality] = reading;
+            const [value] = reading;
             if (value && value !== '-') {
               const numericValue = parseFloat(value);
               if (!stationData[stationCode]) {

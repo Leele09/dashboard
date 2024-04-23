@@ -50,7 +50,7 @@ class BarChart extends Component {
             stationData[pollutant] = [];
           }
           readings.forEach(reading => {
-            const [date, value, quality] = reading;
+            const [value] = reading;
             if (value && value !== '-') {
               stationData[pollutant].push(parseFloat(value));
             }

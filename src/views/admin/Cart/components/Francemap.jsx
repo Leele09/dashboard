@@ -5,20 +5,11 @@ import axios from 'axios';
 import Card from "components/card";
 import "./Card.css";
 import "https://api.windy.com/assets/map-forecast/libBoot.js";
-import { format } from 'date-fns';
 import stationsGeographiques from './stations_geographiques.json';
 import 'leaflet.markercluster/dist/leaflet.markercluster';
 import 'leaflet/dist/leaflet.css';
 import 'leaflet.markercluster/dist/MarkerCluster.css';
 import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
-
-
-
-
-
-
-//import "https://unpkg.com/leaflet@1.4.0/dist/leaflet.js";
-
 
 // Composant de la carte de France
 const Francemap = () => {
@@ -26,9 +17,7 @@ const Francemap = () => {
     const mapRef = useRef(null);
     const [map, setMap] = useState(null);
     const windyMapRef = useRef(null);
-    //const [windyMap, setWindyMap] = useState(null);
     const [darkMode, setDarkMode] = useState(false);
-    const [showWindVector, setShowWindVector] = useState(false);
     const [showDepartments, setShowDepartments] = useState(true);
     const [weatherData, setWeatherData] = useState(null);
     const [forecastData, setForecastData] = useState(null);
@@ -41,9 +30,9 @@ const Francemap = () => {
     const WINDY_API_KEY = 'KIRAUHiHcBVogEwp3PROlExIqKwAQ4e3';
     const latitude = 48.8566; // Latitude de Paris
     const longitude = 2.3522; // Longitude de Paris
-    const [citySuggestions, setCitySuggestions] = useState([]);
-    const [markers, setMarkers] = useState([]);
-    const [markerClusters, setMarkerClusters] = useState([]);
+    const [setCitySuggestions] = useState([]);
+    const [markers] = useState([]);
+    const [markerClusters] = useState([]);
 
 
     ///// Suggestions Ville ////
@@ -85,30 +74,30 @@ const Francemap = () => {
                 };
 
                 window.windyInit(options, windyAPI => {
-                    console.log(windyAPI);
+                    //console.log(windyAPI);
                     windyMapRef.current = windyAPI.map;
 
-                    const { picker, utils, broadcast, store } = windyAPI;
+                    const { picker, broadcast, store } = windyAPI;
 
                     picker.on('pickerOpened', ({ lat, lon, values, overlay }) => {
-                        console.log('opened', lat, lon, values, overlay);
+                        //console.log('opened', lat, lon, values, overlay);
 
-                        const windObject = utils.wind2obj(values);
-                        console.log(windObject);
+                        //const windObject = utils.wind2obj(values);
+                        //console.log(windObject);
                     });
 
                     picker.on('pickerMoved', ({ lat, lon, values, overlay }) => {
-                        console.log('moved', lat, lon, values, overlay);
+                        //console.log('moved', lat, lon, values, overlay);
                     });
 
                     picker.on('pickerClosed', () => {
                     });
 
                     store.on('pickerLocation', ({ lat, lon }) => {
-                        console.log(lat, lon);
+                        //console.log(lat, lon);
 
-                        const { values, overlay } = picker.getParams();
-                        console.log('location changed', lat, lon, values, overlay);
+                        //const { values, overlay } = picker.getParams();
+                        //console.log('location changed', lat, lon, values, overlay);
                     });
 
                     broadcast.once('redrawFinished', () => {
@@ -124,11 +113,11 @@ const Francemap = () => {
                     }, 800);
 
                     broadcast.on('paramsChanged', params => {
-                        console.log('Params changed:', params);
+                        //console.log('Params changed:', params);
                     });
 
                     broadcast.on('redrawFinished', params => {
-                        console.log('Map was rendered:', params);
+                        //console.log('Map was rendered:', params);
                     });
 
                 });
@@ -139,19 +128,8 @@ const Francemap = () => {
     };
 
     useEffect(() => {
-        initWindyMap();
+        initWindyMap().then();
     }, []);
-
-
-    ////////////////// ------------------------- ////////////////////////
-    // Qualité de l'air //
-
-
-
-
-
-
-
 
     // Effet pour initialiser la carte Leaflet SAE //
     useEffect(() => {
@@ -286,21 +264,6 @@ const Francemap = () => {
         }
     };
 
-
-    const getWeatherData = async (lat, lon) => {
-        try {
-            const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}`);
-            const { main, weather } = response.data;
-            return { temp: main.temp, humidity: main.humidity, conditions: weather[0].description };
-        } catch (error) {
-            console.error(error);
-            return null;
-        }
-    };
-
-
-
-    //// ////
     // Fonction afin de changer de mode foncé
     const toggleDarkMode = () => {
         setDarkMode(!darkMode);
@@ -310,10 +273,6 @@ const Francemap = () => {
                 layer.setUrl(tileLayerUrl);
             }
         });
-    };
-
-    const toggleWindVector = () => {
-        setShowWindVector(!showWindVector);
     };
 // Fonction afin de changer de mode foncé
     const toggleNightMap = () => {
@@ -383,29 +342,29 @@ const Francemap = () => {
                             zoom: 5,
                         };
                         window.windyInit(options, windyAPI => {
-                            console.log('Carte Windy initialisée avec succès pour la ville recherchée.');
+                            //console.log('Carte Windy initialisée avec succès pour la ville recherchée.');
 
-                            const { picker, utils, broadcast, store } = windyAPI;
+                            const { picker, broadcast, store } = windyAPI;
 
                             picker.on('pickerOpened', ({ lat, lon, values, overlay }) => {
-                                console.log('opened', lat, lon, values, overlay);
+                                //console.log('opened', lat, lon, values, overlay);
 
-                                const windObject = utils.wind2obj(values);
-                                console.log(windObject);
+                                //const windObject = utils.wind2obj(values);
+                                //console.log(windObject);
                             });
 
                             picker.on('pickerMoved', ({ lat, lon, values, overlay }) => {
-                                console.log('moved', lat, lon, values, overlay);
+                                //console.log('moved', lat, lon, values, overlay);
                             });
 
                             picker.on('pickerClosed', () => {
                             });
 
                             store.on('pickerLocation', ({ lat, lon }) => {
-                                console.log(lat, lon);
+                                //console.log(lat, lon);
 
-                                const { values, overlay } = picker.getParams();
-                                console.log('location changed', lat, lon, values, overlay);
+                                //const { values, overlay } = picker.getParams();
+                                //console.log('location changed', lat, lon, values, overlay);
                             });
 
                             broadcast.once('redrawFinished', () => {
@@ -421,11 +380,11 @@ const Francemap = () => {
                             }, 800);
 
                             broadcast.on('paramsChanged', params => {
-                                console.log('Params changed:', params);
+                                //console.log('Params changed:', params);
                             });
 
                             broadcast.on('redrawFinished', params => {
-                                console.log('Map was rendered:', params);
+                                //console.log('Map was rendered:', params);
                             });
                         });
                     }
@@ -546,12 +505,6 @@ const Francemap = () => {
         });
     };
 
-    const searchWindyCity = () => {
-        const city = searchQuery.trim();
-        if (city) {
-            console.log(`Recherche de la ville : ${city} `);
-        }
-    };
     // Fonction pour mettre les détails sur l'heure spcifique de la ville mentionnée
     const toggleHourlyDetails = (index) => {
         setShowHourlyDetails((prevState) => {

@@ -2,7 +2,6 @@ import React from "react";
 
 // Admin Imports
 import MainDashboard from "views/admin/default";
-import Cart from "views/admin/Cart"
 import DataTables from "views/admin/tables";
 
 // Icon Imports

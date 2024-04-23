@@ -16,23 +16,18 @@ const PieChartCard = ({ dataPercentages }) => {
         ];
 
         return (
-            <Card extra="rounded-[20px] p-3">
-                <div className="flex flex-row justify-between px-3 pt-2">
+            <Card extra="rounded-[20px] p-3 h-2/3">
+                <div className="flex flex-row justify-between px-3 pt-2 ">
                     <h4 className="text-lg font-bold text-navy-700 dark:text-white">
                         Pourcentage des polluants en France
                     </h4>
                 </div>
-                <div className="flex h-[220px] w-full items-center justify-center">
+                <div className="flex h-[220px] w-full items-center justify-center ">
                     <PieChart options={pieChartOptions} series={pieChartData} />
                 </div>
-                <div className="flex flex-col px-6 py-3">
+                <div className="flex flex-col px-6 py-3 ">
                     {pollutantsInfo.map((pollutant, index) => (
-                        <div key={index} className="flex items-center mt-2">
-                            <div className="h-2 w-2 rounded-full mr-2" style={{ backgroundColor: pollutant.color }} />
-                            <p className="text-sm text-gray-600">{pollutant.label}</p>
-                            <p className="ml-auto text-xl font-bold text-navy-700 dark:text-white">
-                                {pollutant.percentage}%
-                            </p>
+                        <div key={index} className="flex items-center mt-2 ">
                         </div>
                     ))}
                 </div>

@@ -4,7 +4,7 @@ import { barChartOptionsDailyTraffic } from "variables/charts";
 import Card from "components/card";
 const DailyTraffic = () => {
   return (
-    <Card extra="pb-7 p-[20px]">
+    <Card extra="pb-7 p-[20px] h-6/7">
       <div className="flex flex-row justify-between">
         <div className="ml-1 pt-2">
           <p className="text-sm font-medium leading-4 text-gray-600">

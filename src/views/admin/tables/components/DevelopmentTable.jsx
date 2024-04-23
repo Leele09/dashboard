@@ -120,7 +120,7 @@ const CheckTable = () => {
       </select>
     </div>
 
-      <div className='mt-8 overflow-x-auto'>
+      <div className='mt-8 overflow-x-auto dark:text-white'>
         <table {...getTableProps()} className='w-full'>
           <thead>
             {headerGroups.map(headerGroup => (

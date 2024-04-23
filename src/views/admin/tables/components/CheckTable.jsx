@@ -72,7 +72,7 @@ const CheckTable = () => {
   );
 
   return (
-    <Card extra={"w-full h-full sm:overflow-auto px-6"}>
+    <Card extra={"w-full h-full sm:overflow-auto px-6 dark:text-white"}>
       <header className="relative flex items-center justify-between pt-4">
         <div className="text-xl font-bold text-navy-700 dark:text-white">Tableau de données des régions</div>
         <select onChange={e => setSelectedStation(e.target.value)} value={selectedStation}>
@@ -89,7 +89,7 @@ const CheckTable = () => {
             {headerGroups.map(headerGroup => (
               <tr {...headerGroup.getHeaderGroupProps()}>
                 {headerGroup.headers.map(column => (
-                  <th {...column.getHeaderProps()} className="border-b border-gray-200 px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  <th {...column.getHeaderProps()} className="border-b border-gray-200 px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider ">
                     {column.render("Header")}
                   </th>
                 ))}
@@ -102,7 +102,7 @@ const CheckTable = () => {
               return (
                 <tr {...row.getRowProps()}>
                   {row.cells.map(cell => (
-                    <td {...cell.getCellProps()} className="px-6 py-4 whitespace-nowrap">
+                    <td {...cell.getCellProps()} className="px-6 py-4 whitespace-nowrap ">
                       {cell.render("Cell")}
                     </td>
                   ))}

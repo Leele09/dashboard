@@ -5,7 +5,7 @@ import jsonData from '../../../../data/data.json';
 import geoData from '../../../../data/geo.json'; 
 
 const CheckTable = () => {
-  const [selectedStation, setSelectedStation] = useState('');
+  const [selectedStation, setSelectedStation] = useState(''); // Set default station code here if known
   const [tableData, setTableData] = useState([]);
   const [stationNames, setStationNames] = useState({});
 
@@ -15,23 +15,25 @@ const CheckTable = () => {
       stationNamesMap[station["Code station"]] = station["Nom station"];
     });
     setStationNames(stationNamesMap);
+
+    // Set default station after names are loaded
+    const firstStationCode = geoData[1] && geoData[1]["Code station"];
+    setSelectedStation(firstStationCode);
   }, []);
 
   useEffect(() => {
     const stationData = {};
     const pollutantSums = {};
 
-    // Parcourir chaque ZAG pour obtenir les stations
     Object.values(jsonData).forEach(zag => {
       Object.entries(zag).forEach(([stationCode, pollutantsObj]) => {
         if (!pollutantSums[stationCode]) {
           pollutantSums[stationCode] = {};
         }
 
-        // Parcourir chaque polluant pour la station
         Object.entries(pollutantsObj).forEach(([pollutant, readings]) => {
           readings.forEach(reading => {
-            const [value] = reading;
+            const [date, value, quality] = reading;
             if (value && value !== '-') {
               const numericValue = parseFloat(value);
               if (!stationData[stationCode]) {
@@ -60,16 +62,12 @@ const CheckTable = () => {
           station: stationNames[stationCode] || stationCode,
           pollutant: pollutant,
           average: average.toFixed(2),
-          percentage: percentage.toFixed(2) // Pas besoin d'ajouter le signe % ici, cela sera ajouté lors de l'affichage dans le tableau
+          percentage: percentage.toFixed(2)
         });
       });
     });
 
-    // Appliquer le filtre de station sélectionnée
-    const filteredData = selectedStation
-      ? averagedData.filter(data => data.station === stationNames[selectedStation])
-      : averagedData;
-
+    const filteredData = averagedData.filter(data => data.station === stationNames[selectedStation]);
     setTableData(filteredData);
   }, [selectedStation, stationNames]);
 
@@ -90,7 +88,7 @@ const CheckTable = () => {
       Header: 'Pourcentage',
       accessor: 'percentage',
       Cell: ({ value }) => {
-        return value + '%'; // Ajout du signe % lors de l'affichage
+        return value + '%';
       },
     },
   ], []);
@@ -107,25 +105,24 @@ const CheckTable = () => {
   });
 
   return (
-  <Card extra={'w-full h-full sm:overflow-auto px-6'}>
-    <div className='flex justify-between items-center pt-4'>
-      <div className="text-xl font-bold text-navy-700 dark:text-white">
-        Tableau de données des stations
+    <Card extra={'w-full h-full sm:overflow-auto px-6'}>
+      <div className='flex justify-between items-center pt-4'>
+        <div className="text-xl font-bold text-navy-700 dark:text-white">
+          Tableau de données des stations
+        </div>
+        <select
+          value={selectedStation}
+          onChange={e => setSelectedStation(e.target.value)}
+          className="select"
+        >
+          {Object.entries(stationNames)
+            .sort((a, b) => a[1].localeCompare(b[1]))
+            .map(([code, name]) => (
+              <option key={code} value={code}>{name}</option>
+            ))
+          }
+        </select>
       </div>
-      <select
-        value={selectedStation}
-        onChange={e => setSelectedStation(e.target.value)}
-        className="select"
-      >
-        <option value="">Toutes les stations</option>
-        {Object.entries(stationNames)
-          .sort((a, b) => a[1].localeCompare(b[1])) // Triez par nom de station
-          .map(([code, name]) => (
-            <option key={code} value={code}>{name}</option>
-          ))
-        }
-      </select>
-    </div>
 
       <div className='mt-8 overflow-x-auto'>
         <table {...getTableProps()} className='w-full'>
@@ -161,3 +158,4 @@ const CheckTable = () => {
 };
 
 export default CheckTable;
+    

@@ -347,7 +347,7 @@ const Francemap = () => {
                 <p>Dans ce temps, il y a : ${weatherDescription}</p>
                 <ul>
                     <p>Latitude : ${lat} | Longitude : ${lon}</p>
-                    <p>Humidité : ${humidity}%</p>
+                    <p>Humidité : ${weatherData.main.humidity}%</p>
                     <p>La température est de ${temperature} degrès °C et la vitesse du vent est de : ${weatherData.wind.speed} m/s</p>
                     <p>Nous sommes le ${getLocalDate(timezone)}, il est actuellement à ${getLocalTime(timezone)}</p>         
                 </ul>

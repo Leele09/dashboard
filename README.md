@@ -19,7 +19,7 @@ Pour installer et exécuter ce tableau de bord localement, suivez les étapes ci
 
 ```bash
 git clone https://github.com/Leele09/dashboard.git
-npm install
+npm i --legacy-peer-deps
 npm start
 ```
 
